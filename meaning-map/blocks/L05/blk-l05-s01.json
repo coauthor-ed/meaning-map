@@ -1,0 +1,14 @@
+{
+  "id": "blk-l05-s01",
+  "type": "content-block@1",
+  "markdownRef": "blocks/L05/blk-l05-s01.md",
+  "simulation": {
+    "src": "simulations/L05/TheWordMapScene-direction.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

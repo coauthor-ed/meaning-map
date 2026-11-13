@@ -1,0 +1,53 @@
+{
+  "id": "q-l14-s03",
+  "type": "sequence-order@1",
+  "difficulty": "medium",
+  "bloomLevel": "apply",
+  "stem": {
+    "en": "Pictures A to D are in the card called Explore the setup. On a phone, scroll down to see it. They are best guesses from one real run. Put them in the order the walk made them."
+  },
+  "items": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Picture A"
+      }
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Picture B"
+      }
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Picture C"
+      }
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Picture D"
+      }
+    }
+  ],
+  "correctOrder": [
+    "b",
+    "d",
+    "a",
+    "c"
+  ],
+  "explanation": {
+    "en": "B is the first best guess, a soft blur from step 1. D, at step 6, shows the big shapes of furniture. A, at step 15, is a room with soft edges, and C, at step 30, has the fine pattern on the rug. Big shapes settle before details."
+  },
+  "simulation": {
+    "src": "simulations/rework/FrameOrderScene.js",
+    "role": "setup"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

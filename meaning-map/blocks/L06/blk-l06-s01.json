@@ -1,0 +1,14 @@
+{
+  "id": "blk-l06-s01",
+  "type": "content-block@1",
+  "markdownRef": "blocks/L06/blk-l06-s01.md",
+  "simulation": {
+    "src": "simulations/L06/TheSentenceLabScene.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-02T18:27:05.015Z"
+  }
+}

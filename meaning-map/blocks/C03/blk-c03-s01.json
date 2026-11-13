@@ -1,0 +1,14 @@
+{
+  "id": "blk-c03-s01",
+  "type": "content-block@1",
+  "markdownRef": "blocks/C03/blk-c03-s01.md",
+  "simulation": {
+    "src": "simulations/rework/TracePlayerScene-rate.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

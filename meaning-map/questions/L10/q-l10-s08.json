@@ -1,0 +1,60 @@
+{
+  "id": "q-l10-s08",
+  "type": "statement-judgment@1",
+  "difficulty": "medium",
+  "bloomLevel": "apply",
+  "stem": {
+    "en": "Meera asks a chatbot for the score of a cricket match played this morning. The model's training ended long before the match. Is each statement true or false?"
+  },
+  "statements": [
+    {
+      "id": "a",
+      "text": {
+        "en": "With no search tool, the model can still write a smooth report of the match."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "If the app adds a page from a search, the model reads it as text in its context window."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "A sure tone in the report shows that the score has support."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Using search makes certain that the report is true."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "e",
+      "text": {
+        "en": "If Meera corrects the score in the chat, the model's settings change."
+      },
+      "isTrue": false
+    }
+  ],
+  "explanation": {
+    "en": "The model always has a next token, so it can write a report with nothing true behind it. A search result is only more text, so a wrong page gives wrong text, and tone is not support. Her correction is text in this chat too, because settings change only in training."
+  },
+  "hints": [
+    {
+      "en": "Keep the model and the app apart in your mind."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

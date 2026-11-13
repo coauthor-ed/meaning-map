@@ -1,0 +1,14 @@
+{
+  "id": "blk-c02-s01",
+  "type": "content-block@1",
+  "markdownRef": "blocks/C02/blk-c02-s01.md",
+  "simulation": {
+    "src": "simulations/C02/TheAgentLoopScene.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

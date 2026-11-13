@@ -1,0 +1,592 @@
+{
+ "terms": [
+  {
+   "id": "model",
+   "term": "model",
+   "match": [
+    "models"
+   ],
+   "plain": {
+    "en": "a program that learned from many examples"
+   },
+   "means": {
+    "en": "A model is a program whose behaviour comes from numbers that were set by training. In this course a model reads text or pictures and gives back a guess or a new piece of text or picture."
+   },
+   "lesson": 1,
+   "group": "concept"
+  },
+  {
+   "id": "program",
+   "term": "program",
+   "match": [
+    "programs"
+   ],
+   "plain": {
+    "en": "a list of exact instructions"
+   },
+   "means": {
+    "en": "A program is a list of exact instructions that a computer follows one line at a time. A computer cannot guess what you meant."
+   },
+   "lesson": 1,
+   "group": "concept"
+  },
+  {
+   "id": "seed",
+   "term": "seed",
+   "match": [
+    "seeds"
+   ],
+   "plain": {
+    "en": "the one starting number for random choices"
+   },
+   "means": {
+    "en": "A computer makes random numbers from one starting number, called the seed. The same seed gives the same starting noise, so you can repeat a run."
+   },
+   "lesson": 1,
+   "group": "concept"
+  },
+  {
+   "id": "stable-diffusion",
+   "term": "Stable Diffusion",
+   "cs": true,
+   "plain": {
+    "en": "a program that makes pictures from words"
+   },
+   "means": {
+    "en": "Stable Diffusion is a real picture-making model. It starts from noise and removes the noise step by step until a picture is left."
+   },
+   "lesson": 1,
+   "group": "concept"
+  },
+  {
+   "id": "diffusion",
+   "term": "diffusion",
+   "plain": {
+    "en": "making a picture by removing noise step by step"
+   },
+   "means": {
+    "en": "Diffusion is the method of making a picture from noise, one small step at a time. It is named after the way a drop of ink spreads through water."
+   },
+   "lesson": 1,
+   "group": "concept"
+  },
+  {
+   "id": "token",
+   "term": "token",
+   "match": [
+    "tokens"
+   ],
+   "plain": {
+    "en": "a piece of text that the model reads"
+   },
+   "means": {
+    "en": "A token is a piece of text, and it need not mean anything. Every model cuts text into tokens before it does anything else."
+   },
+   "lesson": 2,
+   "group": "concept"
+  },
+  {
+   "id": "token-id",
+   "term": "token id",
+   "match": [
+    "token ids"
+   ],
+   "plain": {
+    "en": "a token's number in the token list"
+   },
+   "means": {
+    "en": "A computer needs numbers, so each token is swapped for a number called its token id. The id only says which token it is. It says nothing about the token's meaning."
+   },
+   "lesson": 2,
+   "group": "concept"
+  },
+  {
+   "id": "token-list",
+   "term": "token list",
+   "plain": {
+    "en": "the fixed list of all tokens a model knows"
+   },
+   "means": {
+    "en": "The token list holds every token the model can read or write. A token's place in this list is its token id."
+   },
+   "lesson": 2,
+   "group": "concept"
+  },
+  {
+   "id": "training",
+   "term": "training",
+   "plain": {
+    "en": "the long practice in which a model's settings are nudged"
+   },
+   "means": {
+    "en": "In training, a model guesses, checks the guess against the real answer, and gets its settings nudged to do better. When training is finished the settings stop changing."
+   },
+   "lesson": 3,
+   "group": "concept"
+  },
+  {
+   "id": "training-data",
+   "term": "training data",
+   "match": [
+    "practice pile",
+    "pile"
+   ],
+   "plain": {
+    "en": "the large collection of text a model practises on"
+   },
+   "means": {
+    "en": "The pile of text that a model practises on is called the training data. A model can only learn what the pile shows it, so a pile that leans one way makes the answers lean that way."
+   },
+   "lesson": 3,
+   "group": "concept"
+  },
+  {
+   "id": "setting",
+   "term": "settings",
+   "match": [
+    "setting"
+   ],
+   "plain": {
+    "en": "the numbers inside a model that training changes"
+   },
+   "means": {
+    "en": "A model's settings are the numbers that decide its scores. Real models have billions of them."
+   },
+   "lesson": 3,
+   "group": "concept"
+  },
+  {
+   "id": "nudge",
+   "term": "nudge",
+   "match": [
+    "nudges",
+    "nudged"
+   ],
+   "plain": {
+    "en": "a small change to a setting"
+   },
+   "means": {
+    "en": "A nudge is a small change to a setting that makes the next guess a little less wrong. Many nudges, one after another, are how a model learns."
+   },
+   "lesson": 3,
+   "group": "concept"
+  },
+  {
+   "id": "wrongness",
+   "term": "wrongness",
+   "plain": {
+    "en": "one number for how bad a guess was"
+   },
+   "means": {
+    "en": "Wrongness is a single number that tells how far a guess is from the right answer. Training tries to make it smaller."
+   },
+   "lesson": 3,
+   "group": "concept"
+  },
+  {
+   "id": "score",
+   "term": "score",
+   "match": [
+    "scores"
+   ],
+   "plain": {
+    "en": "a number a model gives each choice"
+   },
+   "means": {
+    "en": "The model gives every possible next word a number called a score. A high score means the token is likely, and the highest score is its guess."
+   },
+   "lesson": 3,
+   "group": "concept"
+  },
+  {
+   "id": "toy",
+   "term": "Toy",
+   "cs": true,
+   "plain": {
+    "en": "a small model we built to show one idea"
+   },
+   "means": {
+    "en": "A Toy is a small, simplified model that we made for this course. Its numbers are set by hand to show what a real model tends to do, not what it does exactly."
+   },
+   "lesson": 3,
+   "group": "concept"
+  },
+  {
+   "id": "memorising",
+   "term": "memorising",
+   "match": [
+    "memorise",
+    "memorised"
+   ],
+   "plain": {
+    "en": "learning one case exactly and nothing more"
+   },
+   "means": {
+    "en": "Memorising a line looks perfect on that line but fails on a new one. Good learning keeps what many examples share."
+   },
+   "lesson": 3,
+   "group": "concept"
+  },
+  {
+   "id": "embedding",
+   "term": "embedding",
+   "match": [
+    "embeddings"
+   ],
+   "plain": {
+    "en": "a word's list of numbers"
+   },
+   "means": {
+    "en": "An embedding is a list of numbers that training gives to a token. Tokens used in similar sentences get similar lists. It is a record of the text, not of the world."
+   },
+   "lesson": 4,
+   "group": "concept"
+  },
+  {
+   "id": "closeness",
+   "term": "closeness",
+   "plain": {
+    "en": "a number that says how alike two lists are"
+   },
+   "means": {
+    "en": "Closeness compares two lists of numbers. Its top value is 1, and a higher number means the lists are more alike."
+   },
+   "lesson": 4,
+   "group": "concept"
+  },
+  {
+   "id": "attention",
+   "term": "attention",
+   "plain": {
+    "en": "taking numbers from the other words in the sentence"
+   },
+   "means": {
+    "en": "In attention, each word in a sentence gives a share of its numbers to a word, so that the word gets a working copy that fits this sentence."
+   },
+   "lesson": 6,
+   "group": "concept"
+  },
+  {
+   "id": "working-copy",
+   "term": "working copy",
+   "plain": {
+    "en": "a word's numbers mixed with shares from its neighbours"
+   },
+   "means": {
+    "en": "A working copy is a mix: each word's numbers times its share, all added together. A new sentence needs a new working copy."
+   },
+   "lesson": 6,
+   "group": "concept"
+  },
+  {
+   "id": "bias",
+   "term": "bias",
+   "plain": {
+    "en": "answers that lean one way because the pile leans"
+   },
+   "means": {
+    "en": "When results lean one way because of what the training data holds, we call that bias. It can happen even when no line in the pile is false."
+   },
+   "lesson": 7,
+   "group": "concept"
+  },
+  {
+   "id": "temperature",
+   "term": "temperature",
+   "plain": {
+    "en": "a run option that makes picking more or less adventurous"
+   },
+   "means": {
+    "en": "Temperature is a run option for the picking step. A low temperature picks the likely tokens, and a high one lets less likely tokens in. Training does not change it."
+   },
+   "lesson": 8,
+   "group": "concept"
+  },
+  {
+   "id": "context-window",
+   "term": "context window",
+   "plain": {
+    "en": "everything a model can read at one moment"
+   },
+   "means": {
+    "en": "The context window holds the request and the reply so far. The model can use only the text that is in it."
+   },
+   "lesson": 8,
+   "group": "concept"
+  },
+  {
+   "id": "hallucination",
+   "term": "hallucination",
+   "match": [
+    "hallucinations"
+   ],
+   "plain": {
+    "en": "a confident answer that is made up"
+   },
+   "means": {
+    "en": "A hallucination is a confident, made-up answer. It comes from the normal writing loop picking likely tokens, not from a broken part."
+   },
+   "lesson": 9,
+   "group": "concept"
+  },
+  {
+   "id": "checker",
+   "term": "checker",
+   "match": [
+    "checkers"
+   ],
+   "plain": {
+    "en": "a program with an answer key"
+   },
+   "means": {
+    "en": "A checker is a program that compares an answer with an answer key. The model alone cannot be sure its own answer is right."
+   },
+   "lesson": 9,
+   "group": "concept"
+  },
+  {
+   "id": "python",
+   "term": "Python",
+   "cs": true,
+   "plain": {
+    "en": "a language for writing programs"
+   },
+   "means": {
+    "en": "Python is a language for writing programs. Its lines are exact, and a computer runs them one at a time."
+   },
+   "lesson": 11,
+   "group": "concept"
+  },
+  {
+   "id": "variable",
+   "term": "variable",
+   "match": [
+    "variables"
+   ],
+   "plain": {
+    "en": "a named box that holds a value"
+   },
+   "means": {
+    "en": "A variable is a named box that holds a value. A program can read the box and change what it holds."
+   },
+   "lesson": 11,
+   "group": "concept"
+  },
+  {
+   "id": "runner",
+   "term": "runner",
+   "plain": {
+    "en": "the ordinary computer that runs a program"
+   },
+   "means": {
+    "en": "The runner is an ordinary computer that runs the program the model wrote. It is separate from the model, and it is what finds out what happens."
+   },
+   "lesson": 13,
+   "group": "concept"
+  },
+  {
+   "id": "bug",
+   "term": "bug",
+   "match": [
+    "bugs"
+   ],
+   "plain": {
+    "en": "a mistake in a program"
+   },
+   "means": {
+    "en": "A bug is a mistake in a program. A program with a bug may still run and give a wrong answer."
+   },
+   "lesson": 13,
+   "group": "concept"
+  },
+  {
+   "id": "pixel",
+   "term": "pixel",
+   "match": [
+    "pixels"
+   ],
+   "plain": {
+    "en": "one small square of colour"
+   },
+   "means": {
+    "en": "A pixel is one small square of colour in a picture. Each pixel is stored as numbers, so a picture is a long list of numbers."
+   },
+   "lesson": 16,
+   "group": "concept"
+  },
+  {
+   "id": "latent",
+   "term": "latent",
+   "plain": {
+    "en": "hidden"
+   },
+   "means": {
+    "en": "Latent numbers are numbers that you do not see in a picture but that control it. Latent simply means hidden."
+   },
+   "lesson": 16,
+   "group": "concept"
+  },
+  {
+   "id": "encoder",
+   "term": "encoder",
+   "match": [
+    "encoders"
+   ],
+   "plain": {
+    "en": "a part that squeezes a picture into a short list of numbers"
+   },
+   "means": {
+    "en": "An encoder reads a picture and writes down its latent numbers. It makes a long list of pixel numbers into a short one."
+   },
+   "lesson": 16,
+   "group": "concept"
+  },
+  {
+   "id": "decoder",
+   "term": "decoder",
+   "match": [
+    "decoders"
+   ],
+   "plain": {
+    "en": "a part that opens latent numbers out into a picture"
+   },
+   "means": {
+    "en": "A decoder takes latent numbers and opens them out into the full picture. It draws the pixels again from the short list."
+   },
+   "lesson": 16,
+   "group": "concept"
+  },
+  {
+   "id": "latent-code",
+   "term": "latent code",
+   "match": [
+    "latent codes"
+   ],
+   "plain": {
+    "en": "a picture held in a short list of numbers"
+   },
+   "means": {
+    "en": "A latent code is a picture held in a list of numbers that is much smaller than the picture. A decoder turns it back into pixels."
+   },
+   "lesson": 17,
+   "group": "concept"
+  },
+  {
+   "id": "latent-space",
+   "term": "latent space",
+   "plain": {
+    "en": "all the latent codes that could exist"
+   },
+   "means": {
+    "en": "Latent space is all the latent codes that could exist, taken together. Almost every code in it makes no sensible picture."
+   },
+   "lesson": 17,
+   "group": "concept"
+  },
+  {
+   "id": "noise",
+   "term": "noise",
+   "plain": {
+    "en": "random numbers added to a picture's numbers"
+   },
+   "means": {
+    "en": "Noise is random numbers added to a picture's numbers. With enough noise, no picture can be seen."
+   },
+   "lesson": 18,
+   "group": "concept"
+  },
+  {
+   "id": "denoising",
+   "term": "denoising",
+   "match": [
+    "denoise"
+   ],
+   "plain": {
+    "en": "taking noise away"
+   },
+   "means": {
+    "en": "Denoising is taking noise away from a picture. A model does it in many small steps."
+   },
+   "lesson": 18,
+   "group": "concept"
+  },
+  {
+   "id": "noise-guess",
+   "term": "noise guess",
+   "plain": {
+    "en": "the model's estimate of the noise that was added"
+   },
+   "means": {
+    "en": "The model is asked to estimate the random numbers that were added to a picture. This estimate is called the noise guess, and taking it away leaves a cleaner picture."
+   },
+   "lesson": 18,
+   "group": "concept"
+  },
+  {
+   "id": "walking-back",
+   "term": "walking back",
+   "plain": {
+    "en": "the journey from noise to picture"
+   },
+   "means": {
+    "en": "Walking back is the journey from pure noise to a picture. Each step removes a small part of the noise."
+   },
+   "lesson": 19,
+   "group": "concept"
+  },
+  {
+   "id": "strength",
+   "term": "strength",
+   "plain": {
+    "en": "how far the guidance pushes the picture"
+   },
+   "means": {
+    "en": "Strength is the amount by which the words push a picture away from the guess without words. A bigger strength follows the prompt more closely."
+   },
+   "lesson": 20,
+   "group": "concept"
+  },
+  {
+   "id": "prompt",
+   "term": "prompt",
+   "match": [
+    "prompts"
+   ],
+   "plain": {
+    "en": "the words you give a model"
+   },
+   "means": {
+    "en": "A prompt is the text you give a model to start from. The model uses it to pick what comes next."
+   },
+   "lesson": 20,
+   "group": "concept"
+  },
+  {
+   "id": "prompt-expander",
+   "term": "prompt expander",
+   "plain": {
+    "en": "an extra part that rewrites your words"
+   },
+   "means": {
+    "en": "A prompt expander is an extra part that adds detail to your short words before the picture model sees them."
+   },
+   "lesson": 21,
+   "group": "concept"
+  },
+  {
+   "id": "deepfake",
+   "term": "deepfake",
+   "match": [
+    "deepfakes"
+   ],
+   "plain": {
+    "en": "a made picture, video or voice of a real person"
+   },
+   "means": {
+    "en": "A deepfake is a made picture, video or voice showing a real person doing or saying what they never did."
+   },
+   "lesson": 22,
+   "group": "concept"
+  }
+ ]
+}

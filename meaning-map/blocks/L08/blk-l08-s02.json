@@ -1,0 +1,26 @@
+{
+  "id": "blk-l08-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L08/blk-l08-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "Scores change, and so the picks change too"
+    },
+    {
+      "id": "b",
+      "text": "Scores stay the same, and so do the picks"
+    },
+    {
+      "id": "c",
+      "text": "Scores stay the same, but the picks change"
+    }
+  ],
+  "correctOptionId": "c",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

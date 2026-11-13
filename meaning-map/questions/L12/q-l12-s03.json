@@ -1,0 +1,53 @@
+{
+  "id": "q-l12-s03",
+  "type": "statement-judgment@1",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Is each statement true or false?"
+  },
+  "statements": [
+    {
+      "id": "a",
+      "text": {
+        "en": "A word has one fixed embedding, but each picture gets its own latent code from the encoder."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The decoder opens a latent code into pixels without using an embedding table."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "A person chose what each of the 16,384 numbers in a latent code should mean."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Any list of 16,384 random numbers opens into a clear picture."
+      },
+      "isTrue": false
+    }
+  ],
+  "explanation": {
+    "en": "Embeddings sit in a fixed table, while latent codes are worked out for each picture and open straight into pixels. Training found the numbers in a latent code, so they have no names, and random latent codes open into speckle."
+  },
+  "hints": [
+    {
+      "en": "Think back to what you saw when you pressed Open on a random latent code."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

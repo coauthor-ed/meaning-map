@@ -1,0 +1,50 @@
+{
+  "id": "q-l10-s03",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Suppose the dots for train and sugar almost touch on a word map, but sugar is not among the nearest words to train. What should you conclude?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The list is wrong, since the map shows the real positions"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The two words must be used in the same kinds of sentences"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Their token ids are close, so their dots were drawn close"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Flattening lost most numbers, so the dots touch by accident"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "The map keeps two numbers from 300, so two dots can touch even when the embeddings are not near. The list of nearest words uses all 300 numbers, so it is the better evidence. Token ids play no part in where a dot is drawn."
+  },
+  "hints": [],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

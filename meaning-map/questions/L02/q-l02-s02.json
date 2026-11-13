@@ -1,0 +1,46 @@
+{
+  "id": "q-l02-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Two tokens have the token ids 464 and 465. What does that tell you?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Their meanings are close to each other"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The second token is a longer piece of text"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "They have next-door numbers in the token list"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "The model reads the second one after the first"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "A token id is only a token's number in the token list. Next-door numbers can hold unrelated tokens, so the ids say nothing about meaning, and they do not set the order of reading."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-02T18:27:05.015Z"
+  }
+}

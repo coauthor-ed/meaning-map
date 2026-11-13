@@ -1,0 +1,46 @@
+{
+  "id": "q-c00-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "What does this program print?\n\n```python\na = 5\na = a + 2\nprint(a)\n```"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "5"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "2"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "7"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "a + 2"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "Line 2 works out the right side first: 5 + 2 is 7. It then stores 7 in the box `a`, which replaces the 5. Line 3 prints what is in the box now."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

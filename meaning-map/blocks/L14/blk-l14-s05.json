@@ -1,0 +1,14 @@
+{
+  "id": "blk-l14-s05",
+  "type": "content-block@1",
+  "markdownRef": "blocks/L14/blk-l14-s05.md",
+  "simulation": {
+    "src": "simulations/rework/ThreeSeedsScene.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-02T18:27:05.015Z"
+  }
+}

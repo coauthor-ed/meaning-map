@@ -1,0 +1,26 @@
+{
+  "id": "blk-l07-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L07/blk-l07-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "India, since most cities in the pile are there"
+    },
+    {
+      "id": "b",
+      "text": "France, as surely as it gives a true answer"
+    },
+    {
+      "id": "c",
+      "text": "France, but with a weak bar that shows doubt"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

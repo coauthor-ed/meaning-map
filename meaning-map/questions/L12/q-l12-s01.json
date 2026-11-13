@@ -1,0 +1,87 @@
+{
+  "id": "q-l12-s01",
+  "type": "match-categorize@1",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Sort each item into encoder, decoder or latent code."
+  },
+  "categories": [
+    {
+      "id": "enc",
+      "label": {
+        "en": "Encoder"
+      }
+    },
+    {
+      "id": "dec",
+      "label": {
+        "en": "Decoder"
+      }
+    },
+    {
+      "id": "code",
+      "label": {
+        "en": "Latent code"
+      }
+    }
+  ],
+  "chips": [
+    {
+      "id": "c1",
+      "text": {
+        "en": "Turns 7,86,432 numbers into 16,384"
+      },
+      "correctCategoryId": "enc"
+    },
+    {
+      "id": "c2",
+      "text": {
+        "en": "You, reading a given picture and writing down its numbers by eye"
+      },
+      "correctCategoryId": "enc"
+    },
+    {
+      "id": "c3",
+      "text": {
+        "en": "Turns 16,384 numbers back into pixels"
+      },
+      "correctCategoryId": "dec"
+    },
+    {
+      "id": "c4",
+      "text": {
+        "en": "Redraws fine detail that it learned in training"
+      },
+      "correctCategoryId": "dec"
+    },
+    {
+      "id": "c5",
+      "text": {
+        "en": "The 16,384 numbers in the narrow middle"
+      },
+      "correctCategoryId": "code"
+    },
+    {
+      "id": "c6",
+      "text": {
+        "en": "A list of numbers made fresh for each picture"
+      },
+      "correctCategoryId": "code"
+    }
+  ],
+  "explanation": {
+    "en": "The encoder squeezes a picture down, the decoder opens it back up, and the latent code is what passes between them. When you read a picture by eye and set the numbers, you did the encoder's job, and the small program behind your sliders was the decoder."
+  },
+  "hints": [
+    {
+      "en": "The encoder and the decoder do jobs. The latent code is the thing they pass along."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

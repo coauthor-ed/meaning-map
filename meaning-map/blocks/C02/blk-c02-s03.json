@@ -1,0 +1,26 @@
+{
+  "id": "blk-c02-s03",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/C02/blk-c02-s03.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "The model sees the crash and corrects it"
+    },
+    {
+      "id": "b",
+      "text": "With no new facts, the bug may stay"
+    },
+    {
+      "id": "c",
+      "text": "The model refuses to write more code"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

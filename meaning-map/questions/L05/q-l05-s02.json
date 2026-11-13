@@ -1,0 +1,39 @@
+{
+  "id": "q-l05-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "With no arrow, Japan is the nearest word to Tokyo, at 0.68. With the Paris-to-France arrow added, Japan is still top, at 0.81. What did the arrow do?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "It found Japan, which Tokyo could not reach"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "It raised the closeness of Japan to the sum"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "It taught the model that Tokyo is in Japan"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "Japan was already top with no arrow, so the start word chose it. The arrow only lifted its closeness from 0.68 to 0.81. A sum changes no setting, so it teaches the model nothing."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "blk-c01-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/C01/blk-c01-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "One tall bar, as with for m"
+    },
+    {
+      "id": "b",
+      "text": "No bars, with nothing to count"
+    },
+    {
+      "id": "c",
+      "text": "Many short bars, all equal"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "q-c03-s03",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "This program should count the marks above 70, but line 4 says 80. Which list of marks would show the mistake?\n\n```python\nmarks = [64, 66]\ncount = 0\nfor m in marks:\n    if m > 80:\n        count = count + 1\nprint(count)\n```"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "[75, 90], expected 2"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "[50, 60], expected 0"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "[90, 95], expected 2"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "The mark 75 is above 70 but not above 80, so the program counts only 90 and prints 1, not 2. With the other two lists, the wrong number and the right one give the same answer, so those tests pass."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "blk-c03-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/C03/blk-c03-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "200 runs in 20 overs, expected 10.0"
+    },
+    {
+      "id": "b",
+      "text": "150 runs in 15 overs, expected 10.0"
+    },
+    {
+      "id": "c",
+      "text": "0 runs in 10 overs, expected 0.0"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

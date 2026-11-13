@@ -1,0 +1,46 @@
+{
+  "id": "q-l08-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "The sentence is \"The capital of British India in 1900 was\". A model gives Calcutta a very high score. What does that high score tell you?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The model has found the answer in its records"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Several sources were checked and they agreed"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The token is what its patterns strongly expect"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "The answer is true, because tall bars are true"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "A score says how strongly the settings expect a token at this point in the text. Nothing in score, pick and add checks a fact, so a false token can get a high score too, as France did in our Toy Gym."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

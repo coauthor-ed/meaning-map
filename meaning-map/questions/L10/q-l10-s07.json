@@ -1,0 +1,50 @@
+{
+  "id": "q-l10-s07",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "You ask a chatbot about Dr Anil Kothari, a poet from Pune whom you have made up. It gives two dates and a list of his books. What is the best explanation?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Tokens that fit the shape of a life still score high"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "It found another Kothari in a list of stored lives"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "A part of the model broke on this unusual question"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "It knew that he was invented but hid this from you"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "A pile holds many short lives in one shape, so tokens that fit the shape get high scores even after an unknown name. This is the normal writing loop, with nothing broken and no list searched. No step in that loop checks a fact, so the model has no such knowledge to hide."
+  },
+  "hints": [],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

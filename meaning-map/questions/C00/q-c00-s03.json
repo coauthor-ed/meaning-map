@@ -1,0 +1,46 @@
+{
+  "id": "q-c00-s03",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "What does this program print?\n\n```python\nlow = 50\nm = 72\nif m < low:\n    low = m\nprint(low)\n```"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "50"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "72"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "22"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Nothing"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "The sign `<` means \"less than\". 72 is not less than 50, so the answer is no and line 4 is skipped. `low` keeps 50, and the last line has no indent, so it still prints."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

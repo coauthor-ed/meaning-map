@@ -1,0 +1,37 @@
+{
+  "id": "les-c03",
+  "lessonId": "les-c03",
+  "type": "lesson",
+  "title": {
+    "en": "Runs Is Not the Same as Right"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/C03/blk-c03-s01.json"
+    },
+    {
+      "blockRef": "blocks/C03/blk-c03-s02.json"
+    },
+    {
+      "blockRef": "blocks/C03/blk-c03-s03.json"
+    },
+    {
+      "blockRef": "blocks/C03/blk-c03-s04.json"
+    },
+    {
+      "blockRef": "questions/C03/q-c03-s01.json"
+    },
+    {
+      "blockRef": "questions/C03/q-c03-s02.json"
+    },
+    {
+      "blockRef": "questions/C03/q-c03-s03.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

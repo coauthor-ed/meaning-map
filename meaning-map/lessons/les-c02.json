@@ -1,0 +1,55 @@
+{
+  "id": "les-c02",
+  "lessonId": "les-c02",
+  "type": "lesson",
+  "title": {
+    "en": "Write, Run, Read, Rewrite"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/C02/blk-c02-s01.json"
+    },
+    {
+      "blockRef": "blocks/C02/blk-c02-s02.json"
+    },
+    {
+      "blockRef": "blocks/C02/blk-c02-s03.json"
+    },
+    {
+      "blockRef": "blocks/C02/blk-c02-s04.json"
+    },
+    {
+      "blockRef": "blocks/C02/blk-c02-s06.json"
+    },
+    {
+      "blockRef": "blocks/C02/blk-c02-s07.json"
+    },
+    {
+      "blockRef": "questions/C02/q-c02-s05.json"
+    },
+    {
+      "blockRef": "blocks/C02/blk-c02-s08.json"
+    },
+    {
+      "blockRef": "questions/C02/q-c02-s04.json"
+    },
+    {
+      "blockRef": "blocks/C02/blk-c02-s05.json"
+    },
+    {
+      "blockRef": "questions/C02/q-c02-s01.json"
+    },
+    {
+      "blockRef": "questions/C02/q-c02-s02.json"
+    },
+    {
+      "blockRef": "questions/C02/q-c02-s03.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

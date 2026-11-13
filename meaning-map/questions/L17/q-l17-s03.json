@@ -1,0 +1,46 @@
+{
+  "id": "q-l17-s03",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Which sentence about copying is the most accurate?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "It stores all its training pictures and joins up pieces of them"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "It never copies, as no trace of the pile is left in its settings"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "It keeps no folder, yet a very common image can be nearly copied"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "It copies only when a user types the name of a living artist"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "Training leaves settings, not a folder of pictures, so most results are not pulled from a store. But a picture seen a huge number of times can be learned so well that a close copy comes out, even with no artist named."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

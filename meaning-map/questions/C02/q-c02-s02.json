@@ -1,0 +1,47 @@
+{
+  "id": "q-c02-s02",
+  "type": "sequence-order@1",
+  "stem": {
+    "en": "Put the steps of the loop in order, starting from a request."
+  },
+  "items": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The model writes a program"
+      }
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The runner runs it"
+      }
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The error goes into the context window"
+      }
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "The model writes a new reply"
+      }
+    }
+  ],
+  "correctOrder": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "explanation": {
+    "en": "The model only writes text. The runner finds out what happens. The result reaches the model as more text, and only then can the next reply change."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

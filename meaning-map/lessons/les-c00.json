@@ -1,0 +1,43 @@
+{
+  "id": "les-c00",
+  "lessonId": "les-c00",
+  "type": "lesson",
+  "title": {
+    "en": "What Is a Program?"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/C00/blk-c00-s01.json"
+    },
+    {
+      "blockRef": "blocks/C00/blk-c00-s02.json"
+    },
+    {
+      "blockRef": "blocks/C00/blk-c00-s03.json"
+    },
+    {
+      "blockRef": "blocks/C00/blk-c00-s04.json"
+    },
+    {
+      "blockRef": "blocks/C00/blk-c00-s05.json"
+    },
+    {
+      "blockRef": "questions/C00/q-c00-s01.json"
+    },
+    {
+      "blockRef": "questions/C00/q-c00-s02.json"
+    },
+    {
+      "blockRef": "questions/C00/q-c00-s03.json"
+    },
+    {
+      "blockRef": "blocks/C00/blk-c00-s06.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "blk-c02-s06",
+  "type": "content-block@1",
+  "_comment": "Big programs in parts, steps 1-2: the toy writes a 3-line plan into the window, then one part per tap; tapping a name in part 3 rings the window lines it came from.",
+  "markdownRef": "blocks/C02/blk-c02-s06.md",
+  "simulation": {
+    "src": "simulations/rework/AppInPartsScene.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

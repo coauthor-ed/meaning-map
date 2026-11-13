@@ -1,0 +1,40 @@
+{
+  "id": "les-14",
+  "lessonId": "les-14",
+  "type": "lesson",
+  "title": {
+    "en": "Walking Back from Noise"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/L14/blk-l14-s01.json"
+    },
+    {
+      "blockRef": "blocks/L14/blk-l14-s02.json"
+    },
+    {
+      "blockRef": "blocks/L14/blk-l14-s03.json"
+    },
+    {
+      "blockRef": "blocks/L14/blk-l14-s04.json"
+    },
+    {
+      "blockRef": "questions/L14/q-l14-s01.json"
+    },
+    {
+      "blockRef": "blocks/L14/blk-l14-s05.json"
+    },
+    {
+      "blockRef": "questions/L14/q-l14-s02.json"
+    },
+    {
+      "blockRef": "questions/L14/q-l14-s03.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

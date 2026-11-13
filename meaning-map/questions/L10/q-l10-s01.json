@@ -1,0 +1,69 @@
+{
+  "id": "q-l10-s01",
+  "type": "sequence-order@1",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "A model reads \"Rain fell on the\" and adds one more token. Put these parts in the order they happen."
+  },
+  "items": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Cut the text into tokens"
+      }
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Swap each token for its token id"
+      }
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Read each token's embedding from the table"
+      }
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Make working copies with attention"
+      }
+    },
+    {
+      "id": "e",
+      "text": {
+        "en": "Give every token in the list a score"
+      }
+    },
+    {
+      "id": "f",
+      "text": {
+        "en": "Pick one token and add it to the text"
+      }
+    }
+  ],
+  "correctOrder": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+  ],
+  "explanation": {
+    "en": "Each part needs the one before it. A token id only finds the embedding, attention can mix numbers only once the embeddings are there, and scores come from what attention produced. Picking comes last, and then the whole loop runs again."
+  },
+  "hints": [
+    {
+      "en": "Ask what each part needs before it can start."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "q-c02-s04",
+  "type": "mcq-single@2",
+  "_comment": "Checks blk-c02-s08: with no plan, the part that fails is not the part that is missing a line.",
+  "stem": {
+    "en": "A toy writes a program in three parts with no plan in the window. Part 3 uses `count`, but no earlier part made it. Why does rewriting only part 3 not fix the error?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The missing line belongs in an earlier part"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The runner did not send the error back"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Part 3 is too long for one token"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Fixing changes the model's settings"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "The error names part 3, but the gap is in part 1. Nothing in the window asked part 1 to make count, so a new part 3 still uses a name that no part made. A plan in the window says this before any part is written. The line that fails is not always the line that is wrong."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

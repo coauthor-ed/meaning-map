@@ -1,0 +1,54 @@
+{
+  "id": "q-l10-s09",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "A chatbot often gets a big multiplication wrong when it answers at once, but right when it writes its working first. What best explains the difference?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "It learns the sum while it writes, so its settings improve"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Each token gets a fixed amount of work, and written steps stay in the window"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "It looks the steps up in a stored list of worked sums"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "A checker marks each line as it is written and fixes it"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "A big sum done at once has to fit inside one token's work, and often it does not fit. Written steps are read again before the next token, so each step is small and familiar. A checker adds something else, because it marks only the final answer during training, and using the model changes no setting."
+  },
+  "hints": [
+    {
+      "en": "Ask what a model gets for each token, and where its earlier steps go."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

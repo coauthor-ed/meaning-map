@@ -1,0 +1,74 @@
+{
+  "id": "part-3-drawing",
+  "moduleId": "part-3-drawing",
+  "type": "module",
+  "title": {
+    "en": "How AI Draws, and What You Think"
+  },
+  "curriculumAlignment": "core",
+  "pedagogicalProfile": {
+    "themeTags": [
+      "latent-space",
+      "diffusion",
+      "guidance",
+      "bias",
+      "ai-literacy",
+      "misconceptions"
+    ]
+  },
+  "lessons": [
+    {
+      "lessonRef": "lessons/les-11.json",
+      "title": {
+        "en": "Hidden Numbers"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-12.json",
+      "title": {
+        "en": "Squeezing Real Pictures"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-13.json",
+      "title": {
+        "en": "Noise and the Guess"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-14.json",
+      "title": {
+        "en": "Walking Back from Noise"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-15.json",
+      "title": {
+        "en": "How Words Steer"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-16.json",
+      "title": {
+        "en": "The Whole Machine"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-17.json",
+      "title": {
+        "en": "Whose Pictures?"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-18.json",
+      "title": {
+        "en": "What You Think Now"
+      }
+    }
+  ],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

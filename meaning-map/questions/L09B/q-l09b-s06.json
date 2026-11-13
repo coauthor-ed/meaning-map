@@ -1,0 +1,54 @@
+{
+  "id": "q-l09b-s06",
+  "type": "sequence-order@1",
+  "stem": {
+    "en": "Put the steps of building an app in order, starting from the request."
+  },
+  "items": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The model writes a plan for the whole app"
+      }
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The model writes one part, with the plan still in the window"
+      }
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The program around the model runs that part"
+      }
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "The model reads the error that came back as text"
+      }
+    },
+    {
+      "id": "e",
+      "text": {
+        "en": "The model writes a fixed version of the part"
+      }
+    }
+  ],
+  "correctOrder": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "explanation": {
+    "en": "A plan comes first and stays in the context window, so each part stays small. The model only writes text, so the program around it runs the part and sends any error back as text. Only then can the model write a fix."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

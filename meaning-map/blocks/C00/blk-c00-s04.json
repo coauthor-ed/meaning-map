@@ -1,0 +1,26 @@
+{
+  "id": "blk-c00-s04",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/C00/blk-c00-s04.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "66, the last mark"
+    },
+    {
+      "id": "b",
+      "text": "91, the top mark"
+    },
+    {
+      "id": "c",
+      "text": "78, 91 and 66"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

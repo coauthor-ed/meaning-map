@@ -1,0 +1,92 @@
+{
+  "id": "q-l16-s02",
+  "type": "match-categorize@1",
+  "stem": {
+    "en": "Match each sentence to the part it describes."
+  },
+  "categories": [
+    {
+      "id": "words",
+      "label": {
+        "en": "Words"
+      }
+    },
+    {
+      "id": "seed",
+      "label": {
+        "en": "Seed"
+      }
+    },
+    {
+      "id": "walk",
+      "label": {
+        "en": "Walk"
+      }
+    },
+    {
+      "id": "decoder",
+      "label": {
+        "en": "Decoder"
+      }
+    }
+  ],
+  "chips": [
+    {
+      "id": "c1",
+      "text": {
+        "en": "Without it, the run ends on numbers, not pixels"
+      },
+      "correctCategoryId": "decoder"
+    },
+    {
+      "id": "c2",
+      "text": {
+        "en": "Without it, the noise just stays noise"
+      },
+      "correctCategoryId": "walk"
+    },
+    {
+      "id": "c3",
+      "text": {
+        "en": "Without it, the picture follows nothing you asked for"
+      },
+      "correctCategoryId": "words"
+    },
+    {
+      "id": "c4",
+      "text": {
+        "en": "Changing it gives a new picture from the same prompt"
+      },
+      "correctCategoryId": "seed"
+    },
+    {
+      "id": "c5",
+      "text": {
+        "en": "This part repeats a noise guess and a small step, many times"
+      },
+      "correctCategoryId": "walk"
+    },
+    {
+      "id": "c6",
+      "text": {
+        "en": "This part gives the numbers that steer each noise guess"
+      },
+      "correctCategoryId": "words"
+    },
+    {
+      "id": "c7",
+      "text": {
+        "en": "This part fills in fine detail from what it learned in training"
+      },
+      "correctCategoryId": "decoder"
+    }
+  ],
+  "explanation": {
+    "en": "Words give the numbers that steer, the seed gives the starting noise, the walk removes the noise step by step, and the decoder alone makes pixels."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

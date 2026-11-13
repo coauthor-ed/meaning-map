@@ -1,0 +1,46 @@
+{
+  "id": "q-c00-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "How many lines does this program print?\n\n```python\nruns = [4, 6, 1]\nfor r in runs:\n    print(r)\nprint(\"over\")\n```"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "1 line"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "3 lines"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "6 lines"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "4 lines"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "The indented `print(r)` runs once for each of the three values in the list. The last line has no indent, so it runs once more, after the loop. That makes 4 lines."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

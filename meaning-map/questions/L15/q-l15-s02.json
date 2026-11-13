@@ -1,0 +1,46 @@
+{
+  "id": "q-l15-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "With seed 20, changing \"green\" to \"purple\" also changed the dragon's pose. Why?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The new word changed the seed, so the walk began from other noise"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The new word changed every step, and each step builds on the last"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Purple dragons are stored inside the model in a crouching pose"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Each run adds fresh randomness, so two runs never keep a pose"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "The seed stayed the same, so the walk began from the same noise. The word enters the noise guess at every step, and each step starts from the result of the one before, so small changes build up across the walk."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

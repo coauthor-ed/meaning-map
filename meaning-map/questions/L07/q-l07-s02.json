@@ -1,0 +1,39 @@
+{
+  "id": "q-l07-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Every line in a practice pile is true, but nine of its ten doctors are men. Asked about a doctor, the model nearly always writes \"he\". What is the best description?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Bias: the pile leans one way, so answers lean too"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "A false line that the model memorised exactly"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "A nudge that goes on while the model is being used"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "No line here is false, so this is not the Calcutta problem. The pile leans one way, and the model repeats that lean, which is what bias means. Nudges happen only in training, so the lean was built before anyone used the model."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

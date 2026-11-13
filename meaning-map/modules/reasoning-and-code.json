@@ -1,0 +1,62 @@
+{
+  "id": "reasoning-and-code",
+  "moduleId": "reasoning-and-code",
+  "type": "module",
+  "title": {
+    "en": "Reasoning and Code"
+  },
+  "curriculumAlignment": "core",
+  "pedagogicalProfile": {
+    "themeTags": [
+      "reasoning",
+      "working-on-the-page",
+      "word-problems",
+      "programming-basics",
+      "code-generation",
+      "testing"
+    ]
+  },
+  "lessons": [
+    {
+      "lessonRef": "lessons/les-09b.json",
+      "title": {
+        "en": "Is the Next Token Enough?"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-c00.json",
+      "title": {
+        "en": "What Is a Program?"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-c01.json",
+      "title": {
+        "en": "Why Code Is Easy to Predict"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-c02.json",
+      "title": {
+        "en": "Write, Run, Read, Rewrite"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-c03.json",
+      "title": {
+        "en": "Runs Is Not the Same as Right"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-10.json",
+      "title": {
+        "en": "What We Know About Words"
+      }
+    }
+  ],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

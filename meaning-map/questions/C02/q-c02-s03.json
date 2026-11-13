@@ -1,0 +1,39 @@
+{
+  "id": "q-c02-s03",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "This program stops with `ZeroDivisionError: division by zero` on line 3. Where is the real mistake?\n\n```python\nruns = 120\novers = 0\nprint(runs / overs)\n```"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Line 1, because 120 is too many runs"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Line 2, because overs holds 0"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Line 3, because print is misspelt"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "Python stopped on line 3 because that is where it tried to divide. The value that made this impossible was stored on line 2. The line that fails is not always the line that is wrong."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

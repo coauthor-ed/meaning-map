@@ -1,0 +1,46 @@
+{
+  "id": "q-l17-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "A picture of a well-known person is going round your school. What gives the best evidence of whether it is real?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Where it first came from, and who can confirm it"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "How sharp and how realistic the picture looks to you"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Whether all of the hands in it have five clear fingers"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "How many people at your school have shared it so far"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "Good fakes look realistic, and visible faults are becoming rarer, so looking does not settle it. Sharing does not show truth either. The source of the picture is the best evidence you can check."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "les-11",
+  "lessonId": "les-11",
+  "type": "lesson",
+  "title": {
+    "en": "Hidden Numbers"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/L11/blk-l11-s01.json"
+    },
+    {
+      "blockRef": "blocks/L11/blk-l11-s02.json"
+    },
+    {
+      "blockRef": "blocks/L11/blk-l11-s03.json"
+    },
+    {
+      "blockRef": "blocks/L11/blk-l11-s04.json"
+    },
+    {
+      "blockRef": "questions/L11/q-l11-s02.json"
+    },
+    {
+      "blockRef": "blocks/L11/blk-l11-s05.json"
+    },
+    {
+      "blockRef": "questions/L11/q-l11-s01.json"
+    },
+    {
+      "blockRef": "blocks/L11/blk-l11-s06.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

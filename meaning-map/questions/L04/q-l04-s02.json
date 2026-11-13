@@ -1,0 +1,39 @@
+{
+  "id": "q-l04-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Who set the 300 numbers in the embedding of the word cat?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Small nudges made during training"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "People who answered 300 questions about cats"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The token list, using the id of cat"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "The numbers began as random numbers, and training changed them by small nudges, so no person wrote them and no questions lie behind them. The token id only says where to find the embedding."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

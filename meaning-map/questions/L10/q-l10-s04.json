@@ -1,0 +1,50 @@
+{
+  "id": "q-l10-s04",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Rahul adds the Paris-to-France arrow to Cairo, and Egypt comes out on top. Before he says that the arrow found Egypt, what should he check?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Whether the drawn arrow ends right beside Egypt"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Whether Egypt's token id comes just after Cairo's"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Which word is nearest to Cairo with no arrow at all"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Whether the same sum gives Egypt when run once more"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "The start word may already sit nearest to the answer, so always compare with doing nothing. The drawn arrow is a flat shadow, so it proves nothing. A sum gives the same result each time, and token ids say nothing about meaning."
+  },
+  "hints": [],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

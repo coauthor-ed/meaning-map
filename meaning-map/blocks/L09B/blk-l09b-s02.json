@@ -1,0 +1,26 @@
+{
+  "id": "blk-l09b-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L09B/blk-l09b-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "Writing the answer alone, because it has fewer tokens to get wrong"
+    },
+    {
+      "id": "b",
+      "text": "Both get the same digits right, because the toy and the sum are the same"
+    },
+    {
+      "id": "c",
+      "text": "Writing the working first gets more digits right than the answer alone"
+    }
+  ],
+  "correctOptionId": "c",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "q-l06-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "In \"The bat flew out of the cave\", the word of has a share of only 3. You grey it, and the working copy moves a little. Why does it move at all?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Each change to a sentence nudges the settings"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Its share is spread over the other words"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The copy has a little randomness added to it"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "A greyed word gives nothing, so its share goes to the words that remain and the mix is done again. The share was small, so the change is small, but it is not zero. No setting changes, because nudges happen only in training, and nothing random was added."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

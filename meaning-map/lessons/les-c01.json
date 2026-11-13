@@ -1,0 +1,31 @@
+{
+  "id": "les-c01",
+  "lessonId": "les-c01",
+  "type": "lesson",
+  "title": {
+    "en": "Why Code Is Easy to Predict"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/C01/blk-c01-s01.json"
+    },
+    {
+      "blockRef": "blocks/C01/blk-c01-s02.json"
+    },
+    {
+      "blockRef": "blocks/C01/blk-c01-s03.json"
+    },
+    {
+      "blockRef": "questions/C01/q-c01-s01.json"
+    },
+    {
+      "blockRef": "questions/C01/q-c01-s02.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

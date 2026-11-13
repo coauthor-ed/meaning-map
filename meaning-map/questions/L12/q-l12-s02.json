@@ -1,0 +1,54 @@
+{
+  "id": "q-l12-s02",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Why do picture models do their work on latent codes instead of pixels?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Any random latent code opens into a good picture."
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Each latent code stores a small copy of a training picture."
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The numbers in a latent code have names a model can read."
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "A latent code has far fewer numbers, so work is cheaper."
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "A latent code holds the picture in 48 times fewer numbers, and the decoder handles the fine detail. Random latent codes open into speckle, as you saw. A latent code is worked out for one picture and is no copy from a pile, and its numbers have no names."
+  },
+  "hints": [
+    {
+      "en": "Compare 7,86,432 with 16,384."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

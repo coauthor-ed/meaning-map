@@ -1,0 +1,46 @@
+{
+  "id": "q-l15-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "At each step of a run with a prompt, what are the two guesses that guidance uses?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "A noise guess with the words, and one without them"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "A guess from the model and one from a search for pictures"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "One guess for the shapes and another guess for the colours"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "A noise guess for this step and one for the next step"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "The model guesses the noise twice on the same numbers, once with your words and once without them. The difference between the two is what the words added, and the push goes along that difference. It does not split shapes from colours, and it does not search anywhere."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

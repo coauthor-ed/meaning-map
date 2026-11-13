@@ -1,0 +1,262 @@
+{
+ "python": "3.12.3",
+ "note": "Written by tools/v2-data/build_traces.py. Real runs of real Python.",
+ "lines": [
+  "marks = [78, 91, 66]",
+  "for m in marks:",
+  "    print(m)",
+  "",
+  "marks = [55, 62, 80]",
+  "total = 0",
+  "for m in marks:",
+  "    total = total + m",
+  "print(total)",
+  "",
+  "marks = [88, 74, 93]",
+  "top = 0",
+  "for m in marks:",
+  "    if m > top:",
+  "        top = m",
+  "print(top)",
+  "",
+  "marks = [45, 70, 59]",
+  "low = 100",
+  "for m in marks:",
+  "    if m < low:",
+  "        low = m",
+  "print(low)",
+  "",
+  "marks = [81, 67, 90]",
+  "count = 0",
+  "for m in marks:",
+  "    if m > 70:",
+  "        count = count + 1",
+  "print(count)",
+  "",
+  "maths = [64, 72, 85]",
+  "for m in maths:",
+  "    print(m + 5)",
+  "",
+  "science = [71, 58, 90]",
+  "total = 0",
+  "for m in science:",
+  "    total = total + m",
+  "print(total / 3)",
+  "",
+  "scores = [12, 45, 6]",
+  "top = 0",
+  "for s in scores:",
+  "    if s > top:",
+  "        top = s",
+  "print(\"top score\")",
+  "print(top)",
+  "",
+  "runs = [4, 6, 1, 0]",
+  "total = 0",
+  "for r in runs:",
+  "    total = total + r",
+  "print(total)",
+  "",
+  "names = [\"Asha\", \"Ravi\", \"Meena\"]",
+  "for n in names:",
+  "    print(n)",
+  "",
+  "fares = [120, 85, 240]",
+  "total = 0",
+  "for f in fares:",
+  "    total = total + f",
+  "print(\"total fare\")",
+  "print(total)",
+  "",
+  "rain = [12, 40, 33]",
+  "for d in rain:",
+  "    if d > 30:",
+  "        print(\"heavy\")",
+  "print(\"done\")",
+  "",
+  "marks = [50, 61]",
+  "print(marks)"
+ ],
+ "codeLines": 62,
+ "prompts": {
+  "for-m": {
+   "tokens": [
+    "for",
+    "m"
+   ],
+   "bars": [
+    {
+     "token": "in",
+     "count": 7,
+     "lines": [
+      1,
+      6,
+      12,
+      19,
+      26,
+      32,
+      37
+     ]
+    }
+   ]
+  },
+  "for-m-in": {
+   "tokens": [
+    "for",
+    "m",
+    "in"
+   ],
+   "bars": [
+    {
+     "token": "marks",
+     "count": 5,
+     "lines": [
+      1,
+      6,
+      12,
+      19,
+      26
+     ]
+    },
+    {
+     "token": "maths",
+     "count": 1,
+     "lines": [
+      32
+     ]
+    },
+    {
+     "token": "science",
+     "count": 1,
+     "lines": [
+      37
+     ]
+    }
+   ]
+  },
+  "print": {
+   "tokens": [
+    "print",
+    "("
+   ],
+   "bars": [
+    {
+     "token": "total",
+     "count": 4,
+     "lines": [
+      8,
+      39,
+      53,
+      64
+     ]
+    },
+    {
+     "token": "m",
+     "count": 2,
+     "lines": [
+      2,
+      33
+     ]
+    },
+    {
+     "token": "top",
+     "count": 2,
+     "lines": [
+      15,
+      47
+     ]
+    },
+    {
+     "token": "\"done\"",
+     "count": 1,
+     "lines": [
+      70
+     ]
+    },
+    {
+     "token": "\"heavy\"",
+     "count": 1,
+     "lines": [
+      69
+     ]
+    },
+    {
+     "token": "\"top score\"",
+     "count": 1,
+     "lines": [
+      46
+     ]
+    },
+    {
+     "token": "\"total fare\"",
+     "count": 1,
+     "lines": [
+      63
+     ]
+    },
+    {
+     "token": "count",
+     "count": 1,
+     "lines": [
+      29
+     ]
+    },
+    {
+     "token": "low",
+     "count": 1,
+     "lines": [
+      22
+     ]
+    },
+    {
+     "token": "marks",
+     "count": 1,
+     "lines": [
+      73
+     ]
+    },
+    {
+     "token": "n",
+     "count": 1,
+     "lines": [
+      57
+     ]
+    }
+   ]
+  }
+ },
+ "madeUp": {
+  "name": "Pipal",
+  "tokens": [
+   "each",
+   "m",
+   "among"
+  ],
+  "before": [],
+  "lines": [
+   "each m among marks",
+   "    show m",
+   "each m among marks",
+   "    show m + 5",
+   "each m among runs"
+  ],
+  "firstLine": 75,
+  "after": [
+   {
+    "token": "marks",
+    "count": 2,
+    "lines": [
+     74,
+     76
+    ]
+   },
+   {
+    "token": "runs",
+    "count": 1,
+    "lines": [
+     78
+    ]
+   }
+  ]
+ }
+}

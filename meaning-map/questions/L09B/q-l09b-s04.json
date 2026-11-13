@@ -1,0 +1,53 @@
+{
+  "id": "q-l09b-s04",
+  "type": "statement-judgment@1",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Is each statement about attention and constraints true or false?"
+  },
+  "statements": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Attention moves information from one position to another."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Attention alone does all the adding and multiplying."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "A constraint is something that must be true."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "A soft constraint solver always finds an answer that fits every rule."
+      },
+      "isTrue": false
+    }
+  ],
+  "explanation": {
+    "en": "Attention moves information between positions. Other parts of each round combine and change it. A constraint is something that must be true, like \"the total is 4 x 6\". Soft means learned and likely, so a model can still break a rule."
+  },
+  "hints": [
+    {
+      "en": "Think about which part gathers and which parts combine."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

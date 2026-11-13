@@ -1,0 +1,34 @@
+{
+  "id": "les-06",
+  "lessonId": "les-06",
+  "type": "lesson",
+  "title": {
+    "en": "How Words Read Each Other"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/L06/blk-l06-s01.json"
+    },
+    {
+      "blockRef": "blocks/L06/blk-l06-s02.json"
+    },
+    {
+      "blockRef": "blocks/L06/blk-l06-s03.json"
+    },
+    {
+      "blockRef": "blocks/L06/blk-l06-s04.json"
+    },
+    {
+      "blockRef": "questions/L06/q-l06-s01.json"
+    },
+    {
+      "blockRef": "questions/L06/q-l06-s02.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

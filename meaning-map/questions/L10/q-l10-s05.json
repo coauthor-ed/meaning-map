@@ -1,0 +1,67 @@
+{
+  "id": "q-l10-s05",
+  "type": "error-correction@1",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Now for what people say about chatbots. Your friend Arjun sends you this message, and each line has one wrong word. Type the wrong word, then the word that should replace it. Choose each fix from this list: token, training, copy, pile, temperature."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "text": {
+        "en": "A model writes one sentence at a time."
+      },
+      "incorrectWord": "sentence",
+      "correction": "token",
+      "acceptedCorrections": [
+        "tokens"
+      ]
+    },
+    {
+      "id": "l2",
+      "text": {
+        "en": "Chatting with a model nudges its settings."
+      },
+      "incorrectWord": "chatting",
+      "correction": "training",
+      "acceptedCorrections": []
+    },
+    {
+      "id": "l3",
+      "text": {
+        "en": "Attention gives the word \"spring\" a new embedding in each sentence."
+      },
+      "incorrectWord": "embedding",
+      "correction": "copy",
+      "acceptedCorrections": [
+        "working copy"
+      ]
+    },
+    {
+      "id": "l4",
+      "text": {
+        "en": "Wrongness measures how far a guess is from the truth."
+      },
+      "incorrectWord": "truth",
+      "correction": "pile",
+      "acceptedCorrections": [
+        "the pile"
+      ]
+    }
+  ],
+  "explanation": {
+    "en": "A model writes one token at a time. Nudges happen only in training, so a chat changes no setting. Attention makes a working copy for one reading and leaves the embedding as it was. The check compares a guess with the pile, so wrongness cannot measure the truth."
+  },
+  "hints": [
+    {
+      "en": "One word in the list is not needed."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

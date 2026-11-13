@@ -1,0 +1,26 @@
+{
+  "id": "blk-l12-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L12/blk-l12-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "A blurry copy, like a small photo stretched"
+    },
+    {
+      "id": "b",
+      "text": "Almost the same picture, with tiny changes"
+    },
+    {
+      "id": "c",
+      "text": "A rough sketch that keeps only the big shapes"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

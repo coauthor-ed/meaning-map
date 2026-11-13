@@ -1,0 +1,50 @@
+{
+  "id": "q-l10-s02",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "A token list was counted from English text only. On this list, a Tamil sentence becomes far more tokens than an English sentence of the same length. What is the best reason?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Tamil words carry more meaning than English words"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The list holds very few joined pieces of Tamil text"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The recipe can only work on the English language"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Long words always split, and Tamil words are long"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "The recipe joins pieces that come often in the text it counts, so English text gives joined English pieces and almost no Tamil ones. Counted from Tamil text, the same recipe would give far fewer tokens. Tokens follow counts, so neither meaning nor length is the cause."
+  },
+  "hints": [],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

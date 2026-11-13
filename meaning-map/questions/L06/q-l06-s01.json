@@ -1,0 +1,46 @@
+{
+  "id": "q-l06-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "The word bank appears in \"The boat reached the river bank\" and in \"Amma went to the bank\". After attention, what is different between the two sentences?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Bank has a different working copy in each one"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Some settings were nudged to suit each sentence"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The embedding table now has two embeddings for bank"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Bank has been given a new token id each time"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "Attention mixes numbers from the words around bank into a working copy, so river and Amma lead to different copies. The embedding table, the token id and the settings all stay as they were, because a nudge happens only in training."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "blk-l14-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L14/blk-l14-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "The same sharp picture, only faster"
+    },
+    {
+      "id": "b",
+      "text": "A soft blur, not a clear picture"
+    },
+    {
+      "id": "c",
+      "text": "The same pure noise, unchanged"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

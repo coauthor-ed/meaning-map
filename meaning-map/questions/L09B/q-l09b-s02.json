@@ -1,0 +1,53 @@
+{
+  "id": "q-l09b-s02",
+  "type": "statement-judgment@1",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Is each statement about checker training true or false?"
+  },
+  "statements": [
+    {
+      "id": "a",
+      "text": {
+        "en": "A checker marks only the final answer, not each step of the working."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Checker training happens while you chat, so the model improves as you use it."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Maths and code improved first partly because a computer can mark them."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "A checker can mark most facts about the world in the same easy way."
+      },
+      "isTrue": false
+    }
+  ],
+  "explanation": {
+    "en": "A checker uses an answer key or tests, so it marks only the final answer. Working that reached a right answer gets nudged up in training, and using the model changes no setting. Sums and programs can be marked by a machine, but most facts about the world cannot."
+  },
+  "hints": [
+    {
+      "en": "Ask when the nudging happens, and what a machine is able to mark."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

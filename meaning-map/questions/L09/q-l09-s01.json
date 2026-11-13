@@ -1,0 +1,46 @@
+{
+  "id": "q-l09-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Priya asks a chatbot how tall a hill near her town is. She asks three times and gets the same number each time. What does this tell her?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "It must be true, since it never changed"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The app checked it three times over"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "It must be false, since models repeat errors"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Little, so she should try another source"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "The same scores can repeat a true fact or a false one, so agreement is not proof. Repeating an answer is not a check, and it does not show the answer is false either. Only a source outside the model can settle it."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

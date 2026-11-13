@@ -1,0 +1,60 @@
+{
+  "id": "q-l18-s01",
+  "type": "statement-judgment@1",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "The two first guesses, tested. Is each statement true or false?"
+  },
+  "statements": [
+    {
+      "id": "a",
+      "text": {
+        "en": "With no tools, a model finds its answer in a stored list of sentences."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "An app can search the web and paste the results in as text for the model."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "A picture model makes each picture by joining pieces of stored pictures."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "A picture that appears a huge number of times in the pile can come out as a near copy."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "e",
+      "text": {
+        "en": "The finished dragon was hidden inside the starting noise all along."
+      },
+      "isTrue": false
+    }
+  ],
+  "explanation": {
+    "en": "A model calculates its answer from settings, and looking things up is a job for the app. A picture model keeps settings, not pictures, and the picture is made during the steps, although a very common image can be learned so well that it is nearly copied."
+  },
+  "hints": [
+    {
+      "en": "Ask which part does the job: the model or the app, the settings or a store."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "blk-l16-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L16/blk-l16-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "Exactly the same picture, with no pixel different"
+    },
+    {
+      "id": "b",
+      "text": "Almost the same picture, with small details changed"
+    },
+    {
+      "id": "c",
+      "text": "A better picture, because the first run taught it"
+    }
+  ],
+  "correctOptionId": "a",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

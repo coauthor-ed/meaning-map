@@ -1,0 +1,46 @@
+{
+  "id": "q-c01-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "In our pile, one prompt has a single bar at full height, because Python's rules allow only one next token there. Which prompt is it?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "print("
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "for m"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "for m in"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "each m among"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "After `for m`, the rules of Python allow only `in`, so all 7 lines agree. After `for m in` the bars lean towards `marks`, but other lists appear too. `print(` spreads across many tokens, and `each m among` has no lines at all."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

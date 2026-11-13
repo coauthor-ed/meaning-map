@@ -1,0 +1,15 @@
+{
+  "id": "blk-c02-s08",
+  "type": "content-block@1",
+  "_comment": "No plan: think, then tap which name part 3 uses (inside the scene, not a predict block); the run gets stuck; then the two results side by side.",
+  "markdownRef": "blocks/C02/blk-c02-s08.md",
+  "simulation": {
+    "src": "simulations/rework/AppInPartsScene-noplan.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "q-c02-s05",
+  "type": "mcq-single@2",
+  "_comment": "Checks blk-c02-s07: where the runner's error goes. One simple recall check between the two parts slides.",
+  "stem": {
+    "en": "In the toy, the runner stops with an error in part 2. What happens to the error message next?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "It goes into the context window as text"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "It changes the model's settings"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The runner rewrites part 2 by itself"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "It removes the plan from the window"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "The error is sent into the context window as more text. The toy reads it, with the plan line for part 2, and rewrites only part 2. No setting changes, and the runner only runs code."
+  },
+  "difficulty": "easy",
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

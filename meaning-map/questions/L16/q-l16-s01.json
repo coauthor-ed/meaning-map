@@ -1,0 +1,47 @@
+{
+  "id": "q-l16-s01",
+  "type": "sequence-order@1",
+  "stem": {
+    "en": "Put these parts of one run in the order they happen."
+  },
+  "items": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Make the prompt's number lists and the starting noise"
+      }
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Make two noise guesses for this step"
+      }
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Push along the difference and remove a little noise"
+      }
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Open the latent code into pixels"
+      }
+    }
+  ],
+  "correctOrder": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "explanation": {
+    "en": "The number lists and the noise do not depend on each other, so they sit together at the start. The two guesses and the push repeat at every step, and only then does the decoder make pixels."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

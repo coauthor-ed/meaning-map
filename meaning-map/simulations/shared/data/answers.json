@@ -1,0 +1,115 @@
+{
+ "_note": "Hand-written examples for L09 (reports/DECISIONS.md D2). No model produced these. The outside results are mock-ups. The Howrah Bridge really opened in 1943. The book, the person and the tool are invented; easyadder had no PyPI page on 2026-10-31 (easymath, the old name, is a real package, so it was replaced). runner is the real last line Python prints for this import.",
+ "answers": [
+  {
+   "id": "fact",
+   "q": "When did the Howrah Bridge open?",
+   "a": "The Howrah Bridge in Kolkata opened to traffic in 1902. It remains one of the busiest bridges in India.",
+   "source": {
+    "title": "City history page",
+    "text": "Opened to traffic in 1943."
+   },
+   "verdict": "Wrong year",
+   "mark": "1902"
+  },
+  {
+   "id": "book",
+   "q": "Suggest a good book on old Bengal rivers.",
+   "a": "The standard work is The River Clerks of Bengal by Meera Dutta (1974). It traces how the river trade shaped the region.",
+   "source": {
+    "title": "Library catalogue",
+    "text": "No book with this title."
+   },
+   "verdict": "Book not found",
+   "mark": "The River Clerks of Bengal by Meera Dutta (1974)"
+  },
+  {
+   "id": "person",
+   "q": "Who was Ila Venkatachar?",
+   "a": "Ila Venkatachar (1889-1961) was a Mysore-born weather scientist. She kept the first long rainfall records of the Deccan and taught in Bangalore for thirty years.",
+   "source": {
+    "title": "Encyclopedia search",
+    "text": "No record of this person."
+   },
+   "verdict": "Person not found",
+   "mark": "(1889-1961)"
+  },
+  {
+   "id": "program",
+   "q": "Write a program that adds 2 and 3.",
+   "a": "Here is a short program that does it.",
+   "code": [
+    "import easyadder",
+    "print(easyadder.add(2, 3))"
+   ],
+   "source": {
+    "title": "Package index",
+    "text": "No tool called easyadder."
+   },
+   "verdict": "Tool not found",
+   "runner": "ModuleNotFoundError: No module named 'easyadder'",
+   "mark": "import easyadder"
+  }
+ ],
+ "lives": [
+  {
+   "h": "True, from history books",
+   "name": "Anna Mani",
+   "years": "1918-2001",
+   "place": "Travancore",
+   "job": "weather scientist"
+  },
+  {
+   "h": "True, from history books",
+   "name": "C. V. Raman",
+   "years": "1888-1970",
+   "place": "Tiruchirappalli",
+   "job": "physicist"
+  },
+  {
+   "h": "The answer: same shape, no support",
+   "name": "Ila Venkatachar",
+   "years": "1889-1961",
+   "place": "Mysore",
+   "job": "weather scientist"
+  }
+ ],
+ "asks": [
+  {
+   "id": "capital",
+   "label": "Capital",
+   "q": "What is the capital of India?",
+   "rows": [
+    "New Delhi.",
+    "New Delhi.",
+    "New Delhi."
+   ],
+   "result": "They agree. Outside check: right.",
+   "tone": "ok"
+  },
+  {
+   "id": "bridge",
+   "label": "Bridge",
+   "q": "When did the Howrah Bridge open?",
+   "rows": [
+    "It opened in 1902.",
+    "It opened in 1902.",
+    "It opened in 1902."
+   ],
+   "result": "They agree. Outside check: wrong.",
+   "tone": "bad"
+  },
+  {
+   "id": "person",
+   "label": "Person",
+   "q": "Who was Ila Venkatachar?",
+   "rows": [
+    "A scientist born in Mysore in 1889.",
+    "A doctor born in Pune in 1891.",
+    "A teacher born in Madras in 1886."
+   ],
+   "result": "They disagree. Treat it as a warning.",
+   "tone": "warn"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "q-c01-s02",
+  "type": "match-categorize@1",
+  "stem": {
+    "en": "Sort each sentence by what it describes."
+  },
+  "categories": [
+    {
+      "id": "ours",
+      "label": {
+        "en": "Our counter"
+      }
+    },
+    {
+      "id": "real",
+      "label": {
+        "en": "A real model"
+      }
+    }
+  ],
+  "chips": [
+    {
+      "id": "c1",
+      "text": {
+        "en": "Holds a table of counts"
+      },
+      "correctCategoryId": "ours"
+    },
+    {
+      "id": "c2",
+      "text": {
+        "en": "Shows no bars for a prompt it has no lines for"
+      },
+      "correctCategoryId": "ours"
+    },
+    {
+      "id": "c3",
+      "text": {
+        "en": "Has billions of settings"
+      },
+      "correctCategoryId": "real"
+    },
+    {
+      "id": "c4",
+      "text": {
+        "en": "Scores every token, for any prompt"
+      },
+      "correctCategoryId": "real"
+    },
+    {
+      "id": "c5",
+      "text": {
+        "en": "Was nudged during training"
+      },
+      "correctCategoryId": "real"
+    }
+  ],
+  "explanation": {
+    "en": "The counter only matches tokens and counts what follows, so with no lines it has nothing to show. A real model has no table of counts. Its scores come from settings nudged in training, so it produces scores for any prompt, sensible or not."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

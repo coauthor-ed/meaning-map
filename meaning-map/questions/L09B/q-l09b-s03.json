@@ -1,0 +1,46 @@
+{
+  "id": "q-l09b-s03",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Mina has 24 pens. She puts the same number in each packet, with 6 pens in each. How many packets does she fill? Which step fits?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "24 x 6, because the word \"each\" always means multiply"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "24 / 6, because the pens are shared into equal groups"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "24 - 6, because some pens go into a packet"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "24 + 6, because more packets are being filled"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "Here 24 pens are shared into equal groups of 6, so the step is 24 / 6 = 4 packets. The word \"each\" can point to multiply or to divide. The words and numbers around it decide which."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "q-l08-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "In a very long chat, a model says something that goes against a decision made at the start. Which explanation fits best?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The early text is past the edge of the context window"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "The chat nudged its settings, so it changed its view"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "It forgot slowly, as people forget over many weeks"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Its temperature rose as the chat became much longer"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "The model scores tokens from the text inside its context window, so text past the edge plays no part. Using a model changes no setting, it does not fade like a person's memory, and temperature is a run option that a long chat does not change."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

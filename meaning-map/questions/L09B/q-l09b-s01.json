@@ -1,0 +1,46 @@
+{
+  "id": "q-l09b-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "A model gets a big sum wrong when it writes only the answer, and right when it writes its working first. Which reason fits best?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "It learns while it writes, so each new line is better than the last"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "It looks each step up in a stored table of worked sums it has kept"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Writing the steps changes its settings, so it gets better at sums"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Each token gets fixed work, and the written steps stay in the window"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "A model does the same fixed amount of work for every token, so a whole big sum rarely fits in one token. The written steps go into the context window and are read again, so each step stays small. Using a model changes no setting, and real models keep no table of sums."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

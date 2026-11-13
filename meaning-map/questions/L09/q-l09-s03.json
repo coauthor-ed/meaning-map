@@ -1,0 +1,53 @@
+{
+  "id": "q-l09-s03",
+  "type": "statement-judgment@1",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Is each statement true or false?"
+  },
+  "statements": [
+    {
+      "id": "a",
+      "text": {
+        "en": "An app may save your chat even though the model's settings stay frozen."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "A friend's photo is safe to paste into a chat, because the model is frozen."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Asking an app to explain fractions, then doing the sums yourself, is the same as handing in its answers."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Search results in the context window can still be wrong."
+      },
+      "isTrue": true
+    }
+  ],
+  "explanation": {
+    "en": "The model and the app are separate, so frozen settings say nothing about what the app keeps, and a friend's photo is not yours to share. An explanation leaves the thinking to you, which handed-in work does not. Pasted text is only text, so a wrong page gives the model wrong text."
+  },
+  "hints": [
+    {
+      "en": "Keep the model and the app apart in your mind."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

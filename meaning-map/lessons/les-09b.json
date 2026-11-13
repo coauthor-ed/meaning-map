@@ -1,0 +1,82 @@
+{
+  "id": "les-09b",
+  "lessonId": "les-09b",
+  "type": "lesson",
+  "title": {
+    "en": "Is the Next Token Enough?"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s01.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s02.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s03.json"
+    },
+    {
+      "blockRef": "questions/L09B/q-l09b-s01.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s04.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s05.json"
+    },
+    {
+      "blockRef": "questions/L09B/q-l09b-s02.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s06.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s07.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s08.json"
+    },
+    {
+      "blockRef": "questions/L09B/q-l09b-s03.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s09.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s10.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s11.json"
+    },
+    {
+      "blockRef": "questions/L09B/q-l09b-s04.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s12.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s13.json"
+    },
+    {
+      "blockRef": "questions/L09B/q-l09b-s05.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s14.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s15.json"
+    },
+    {
+      "blockRef": "questions/L09B/q-l09b-s06.json"
+    },
+    {
+      "blockRef": "blocks/L09B/blk-l09b-s16.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "q-l09-s02",
+  "type": "match-categorize@1",
+  "difficulty": "medium",
+  "bloomLevel": "apply",
+  "stem": {
+    "en": "Which help suits each request best?"
+  },
+  "categories": [
+    {
+      "id": "search",
+      "label": {
+        "en": "Search"
+      }
+    },
+    {
+      "id": "calc",
+      "label": {
+        "en": "Calculator"
+      }
+    },
+    {
+      "id": "model",
+      "label": {
+        "en": "The model alone"
+      }
+    }
+  ],
+  "chips": [
+    {
+      "id": "c1",
+      "text": {
+        "en": "Is my train from Howrah late today?"
+      },
+      "correctCategoryId": "search"
+    },
+    {
+      "id": "c2",
+      "text": {
+        "en": "How much rain fell in Mumbai this morning?"
+      },
+      "correctCategoryId": "search"
+    },
+    {
+      "id": "c3",
+      "text": {
+        "en": "The exact cost of 3,764 bricks at ₹8.75 each"
+      },
+      "correctCategoryId": "calc"
+    },
+    {
+      "id": "c4",
+      "text": {
+        "en": "What is 18% of ₹1,27,450, exactly?"
+      },
+      "correctCategoryId": "calc"
+    },
+    {
+      "id": "c5",
+      "text": {
+        "en": "Make this sentence simpler to read"
+      },
+      "correctCategoryId": "model"
+    },
+    {
+      "id": "c6",
+      "text": {
+        "en": "Write a short story about a lost kite"
+      },
+      "correctCategoryId": "model"
+    }
+  ],
+  "explanation": {
+    "en": "A pile ends on some date, so today's news has to arrive as text from a search. A calculator is surer for exact arithmetic, and it works as an outside checker; the model can also work a sum out on paper, as a later lesson shows. Rewriting and storytelling need no outside facts, so the model can do them alone."
+  },
+  "hints": [
+    {
+      "en": "Ask what the answer depends on: today's events, exact arithmetic, or neither."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

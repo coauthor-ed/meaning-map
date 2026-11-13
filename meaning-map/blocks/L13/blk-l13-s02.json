@@ -1,0 +1,26 @@
+{
+  "id": "blk-l13-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L13/blk-l13-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "At every level, with careful looking"
+    },
+    {
+      "id": "b",
+      "text": "At light noise, but not at heavy noise"
+    },
+    {
+      "id": "c",
+      "text": "At no level, because noise is permanent"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

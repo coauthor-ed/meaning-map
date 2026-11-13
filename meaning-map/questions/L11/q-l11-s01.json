@@ -1,0 +1,54 @@
+{
+  "id": "q-l11-s01",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Rohan fills all 12,288 numbers of a 64 by 64 picture at random, 1,000 times. He never gets a picture of a ball. Why not?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The computer has not been taught what a ball is."
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "A random number from 0 to 255 cannot make red."
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "A ball needs thousands of pixels to agree."
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "He needs only a few thousand more tries."
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "Each random pixel is chosen without looking at its neighbours, but a ball needs a smooth round patch and a plain background all at once. Red is easy to reach and no teaching is involved: a ball picture is possible, only far too rare. The number of possible pictures has 29,593 digits, so a few thousand more tries changes nothing."
+  },
+  "hints": [
+    {
+      "en": "Think about what one pixel knows about the pixels next to it."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

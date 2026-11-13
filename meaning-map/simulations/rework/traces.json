@@ -1,0 +1,2279 @@
+{
+ "python": "3.12.3",
+ "note": "Written by tools/v2-data/build_traces.py. Real runs of real Python.",
+ "programs": {
+  "box": {
+   "file": "grace.py",
+   "lines": [
+    "marks = 78",
+    "marks = marks + 5",
+    "print(marks)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "marks": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "A box named marks now holds 78.",
+     "new": [
+      "marks"
+     ],
+     "printed": []
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": "83"
+     },
+     "out": [],
+     "err": false,
+     "say": "Python worked out marks + 5 first, then put 83 in the box.",
+     "new": [
+      "marks"
+     ],
+     "printed": []
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": "83"
+     },
+     "out": [
+      "83"
+     ],
+     "err": false,
+     "say": "print shows what is in the box.",
+     "new": [],
+     "printed": [
+      "83"
+     ]
+    }
+   ],
+   "stdout": "83\n",
+   "traceback": "",
+   "error": "",
+   "asks": {
+    "3": {
+     "q": "What will this line print?",
+     "choices": [
+      "marks",
+      "78",
+      "83"
+     ],
+     "answer": "83"
+    }
+   },
+   "stops": {
+    "first": 1,
+    "second": 2,
+    "third": 3
+   }
+  },
+  "list": {
+   "file": "list.py",
+   "lines": [
+    "marks = [78, 91, 66]",
+    "for m in marks:",
+    "    print(m)",
+    "print(\"done\")"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ]
+     },
+     "out": [],
+     "err": false,
+     "say": "One box now holds a list of three marks.",
+     "new": [
+      "marks"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "m": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 78.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "m": "78"
+     },
+     "out": [
+      "78"
+     ],
+     "err": false,
+     "say": "print shows m, which is 78.",
+     "new": [],
+     "printed": [
+      "78"
+     ],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "m": "91"
+     },
+     "out": [
+      "78"
+     ],
+     "err": false,
+     "say": "Take the next mark. m is now 91.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "m": "91"
+     },
+     "out": [
+      "78",
+      "91"
+     ],
+     "err": false,
+     "say": "print shows m, which is 91.",
+     "new": [],
+     "printed": [
+      "91"
+     ],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "m": "66"
+     },
+     "out": [
+      "78",
+      "91"
+     ],
+     "err": false,
+     "say": "Take the next mark. m is now 66.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "m": "66"
+     },
+     "out": [
+      "78",
+      "91",
+      "66"
+     ],
+     "err": false,
+     "say": "print shows m, which is 66.",
+     "new": [],
+     "printed": [
+      "66"
+     ],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "m": "66"
+     },
+     "out": [
+      "78",
+      "91",
+      "66"
+     ],
+     "err": false,
+     "say": "No marks are left, so the loop ends.",
+     "new": [],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "m": "66"
+     },
+     "out": [
+      "78",
+      "91",
+      "66",
+      "done"
+     ],
+     "err": false,
+     "say": "Words inside quote marks are printed exactly as written.",
+     "new": [],
+     "printed": [
+      "done"
+     ],
+     "cell": {}
+    }
+   ],
+   "stdout": "78\n91\n66\ndone\n",
+   "traceback": "",
+   "error": "",
+   "asks": {
+    "4": {
+     "q": "The loop goes back to the top. What will m be now?",
+     "choices": [
+      "78",
+      "91",
+      "66"
+     ],
+     "answer": "91"
+    }
+   },
+   "stops": {
+    "made": 1,
+    "first": 2,
+    "printed": 3,
+    "second": 4,
+    "end": 9
+   }
+  },
+  "if-yes": {
+   "file": "if.py",
+   "lines": [
+    "top = 78",
+    "m = 91",
+    "if m > top:",
+    "    top = m",
+    "print(top)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "top": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "top holds 78.",
+     "new": [
+      "top"
+     ],
+     "printed": []
+    },
+    {
+     "line": 2,
+     "vars": {
+      "top": "78",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "m holds 91.",
+     "new": [
+      "m"
+     ],
+     "printed": []
+    },
+    {
+     "line": 3,
+     "vars": {
+      "top": "78",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 91 more than 78? Yes, so the indented line runs.",
+     "new": [],
+     "printed": []
+    },
+    {
+     "line": 4,
+     "vars": {
+      "top": "91",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "top now holds 91.",
+     "new": [
+      "top"
+     ],
+     "printed": []
+    },
+    {
+     "line": 5,
+     "vars": {
+      "top": "91",
+      "m": "91"
+     },
+     "out": [
+      "91"
+     ],
+     "err": false,
+     "say": "print shows top, which is 91.",
+     "new": [],
+     "printed": [
+      "91"
+     ]
+    }
+   ],
+   "stdout": "91\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "test": 3,
+    "end": 5
+   }
+  },
+  "if-no": {
+   "file": "if.py",
+   "lines": [
+    "top = 78",
+    "m = 66",
+    "if m > top:",
+    "    top = m",
+    "print(top)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "top": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "top holds 78.",
+     "new": [
+      "top"
+     ],
+     "printed": []
+    },
+    {
+     "line": 2,
+     "vars": {
+      "top": "78",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "m holds 66.",
+     "new": [
+      "m"
+     ],
+     "printed": []
+    },
+    {
+     "line": 3,
+     "vars": {
+      "top": "78",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 66 more than 78? No, so the indented line is skipped.",
+     "new": [],
+     "printed": []
+    },
+    {
+     "line": 5,
+     "vars": {
+      "top": "78",
+      "m": "66"
+     },
+     "out": [
+      "78"
+     ],
+     "err": false,
+     "say": "print shows top, which is 78.",
+     "new": [],
+     "printed": [
+      "78"
+     ]
+    }
+   ],
+   "stdout": "78\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "test": 3,
+    "end": 4
+   }
+  },
+  "top": {
+   "file": "top.py",
+   "lines": [
+    "marks = [78, 91, 66]",
+    "top = 0",
+    "for m in marks:",
+    "    if m > top:",
+    "        top = m",
+    "print(top)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ]
+     },
+     "out": [],
+     "err": false,
+     "say": "A list of three marks goes in a box named marks.",
+     "new": [
+      "marks"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0"
+     },
+     "out": [],
+     "err": false,
+     "say": "A box named top starts at 0.",
+     "new": [
+      "top"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 78.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 78 more than 0? Yes, so the next line runs.",
+     "new": [],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 5,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "78",
+      "m": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "top now holds 78.",
+     "new": [
+      "top"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "78",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 91.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "78",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 91 more than 78? Yes, so the next line runs.",
+     "new": [],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 5,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "91",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "top now holds 91.",
+     "new": [
+      "top"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "91",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 66.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "91",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 66 more than 91? No, so the next line is skipped.",
+     "new": [],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "91",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "No marks are left, so the loop ends.",
+     "new": [],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 6,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "91",
+      "m": "66"
+     },
+     "out": [
+      "91"
+     ],
+     "err": false,
+     "say": "The loop is over, so this line runs once.",
+     "new": [],
+     "printed": [
+      "91"
+     ],
+     "cell": {}
+    }
+   ],
+   "stdout": "91\n",
+   "traceback": "",
+   "error": "",
+   "asks": {
+    "7": {
+     "q": "m is 91 and top is 78. Will the indented line run?",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "answer": "Yes"
+    },
+    "10": {
+     "q": "m is 66 and top is 91. Will the indented line run?",
+     "choices": [
+      "Yes",
+      "No"
+     ],
+     "answer": "No"
+    }
+   },
+   "stops": {
+    "list": 1,
+    "start": 2,
+    "first": 5,
+    "second": 8,
+    "third": 10,
+    "end": 12
+   }
+  },
+  "low": {
+   "file": "top.py",
+   "lines": [
+    "marks = [78, 91, 66]",
+    "top = 0",
+    "for m in marks:",
+    "    if m < top:",
+    "        top = m",
+    "print(top)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ]
+     },
+     "out": [],
+     "err": false,
+     "say": "A list of three marks goes in a box named marks.",
+     "new": [
+      "marks"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0"
+     },
+     "out": [],
+     "err": false,
+     "say": "A box named top starts at 0.",
+     "new": [
+      "top"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 78.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 78 less than 0? No, so the next line is skipped.",
+     "new": [],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 91.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 91 less than 0? No, so the next line is skipped.",
+     "new": [],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 66.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 66 less than 0? No, so the next line is skipped.",
+     "new": [],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "No marks are left, so the loop ends.",
+     "new": [],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 6,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "0",
+      "m": "66"
+     },
+     "out": [
+      "0"
+     ],
+     "err": false,
+     "say": "The loop is over, so this line runs once.",
+     "new": [],
+     "printed": [
+      "0"
+     ],
+     "cell": {}
+    }
+   ],
+   "stdout": "0\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "end": 10
+   }
+  },
+  "avg-first": {
+   "file": "average.py",
+   "lines": [
+    "marks = [72, 91, 65]",
+    "total = 0",
+    "count = 0",
+    "for m in marks:",
+    "    total = total + m",
+    "print(total / count)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ]
+     },
+     "out": [],
+     "err": false,
+     "say": "The list of marks goes in a box.",
+     "new": [
+      "marks"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "0"
+     },
+     "out": [],
+     "err": false,
+     "say": "total starts at 0.",
+     "new": [
+      "total"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "0",
+      "count": "0"
+     },
+     "out": [],
+     "err": false,
+     "say": "count starts at 0.",
+     "new": [
+      "count"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "0",
+      "count": "0",
+      "m": "72"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 72.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 5,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "72",
+      "count": "0",
+      "m": "72"
+     },
+     "out": [],
+     "err": false,
+     "say": "total adds up the marks: it is 72 now.",
+     "new": [
+      "total"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "72",
+      "count": "0",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 91.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 5,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "163",
+      "count": "0",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "total adds up the marks: it is 163 now.",
+     "new": [
+      "total"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "163",
+      "count": "0",
+      "m": "65"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 65.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 5,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "228",
+      "count": "0",
+      "m": "65"
+     },
+     "out": [],
+     "err": false,
+     "say": "total adds up the marks: it is 228 now.",
+     "new": [
+      "total"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "228",
+      "count": "0",
+      "m": "65"
+     },
+     "out": [],
+     "err": false,
+     "say": "No marks are left, so the loop ends.",
+     "new": [],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 6,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "228",
+      "count": "0",
+      "m": "65"
+     },
+     "out": [],
+     "err": true,
+     "say": "Python tried 228 / 0 and stopped here.",
+     "new": [],
+     "printed": [],
+     "cell": {}
+    }
+   ],
+   "stdout": "",
+   "traceback": "Traceback (most recent call last):\n  File \"average.py\", line 6, in <module>\n    print(total / count)\n          ~~~~~~^~~~~~~\nZeroDivisionError: division by zero",
+   "error": "ZeroDivisionError",
+   "asks": {},
+   "stops": {
+    "end": 11
+   }
+  },
+  "avg-fixed": {
+   "file": "average.py",
+   "lines": [
+    "marks = [72, 91, 65]",
+    "total = 0",
+    "count = 0",
+    "for m in marks:",
+    "    total = total + m",
+    "    count = count + 1",
+    "print(total / count)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ]
+     },
+     "out": [],
+     "err": false,
+     "say": "The list of marks goes in a box.",
+     "new": [
+      "marks"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "0"
+     },
+     "out": [],
+     "err": false,
+     "say": "total starts at 0.",
+     "new": [
+      "total"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "0",
+      "count": "0"
+     },
+     "out": [],
+     "err": false,
+     "say": "count starts at 0.",
+     "new": [
+      "count"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "0",
+      "count": "0",
+      "m": "72"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 72.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 5,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "72",
+      "count": "0",
+      "m": "72"
+     },
+     "out": [],
+     "err": false,
+     "say": "total adds up the marks: it is 72 now.",
+     "new": [
+      "total"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 6,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "72",
+      "count": "1",
+      "m": "72"
+     },
+     "out": [],
+     "err": false,
+     "say": "count goes up by one: it is 1 now.",
+     "new": [
+      "count"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "72",
+      "count": "1",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 91.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 5,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "163",
+      "count": "1",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "total adds up the marks: it is 163 now.",
+     "new": [
+      "total"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 6,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "163",
+      "count": "2",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "count goes up by one: it is 2 now.",
+     "new": [
+      "count"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "163",
+      "count": "2",
+      "m": "65"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 65.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 5,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "228",
+      "count": "2",
+      "m": "65"
+     },
+     "out": [],
+     "err": false,
+     "say": "total adds up the marks: it is 228 now.",
+     "new": [
+      "total"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 6,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "228",
+      "count": "3",
+      "m": "65"
+     },
+     "out": [],
+     "err": false,
+     "say": "count goes up by one: it is 3 now.",
+     "new": [
+      "count"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "228",
+      "count": "3",
+      "m": "65"
+     },
+     "out": [],
+     "err": false,
+     "say": "No marks are left, so the loop ends.",
+     "new": [],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 7,
+     "vars": {
+      "marks": [
+       "72",
+       "91",
+       "65"
+      ],
+      "total": "228",
+      "count": "3",
+      "m": "65"
+     },
+     "out": [
+      "76.0"
+     ],
+     "err": false,
+     "say": "Python worked out 228 / 3 and printed the answer.",
+     "new": [],
+     "printed": [
+      "76.0"
+     ],
+     "cell": {}
+    }
+   ],
+   "stdout": "76.0\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "end": 14
+   }
+  },
+  "rate-a": {
+   "file": "rate.py",
+   "lines": [
+    "runs = 150",
+    "played = 15",
+    "full = 20",
+    "rate = runs / full",
+    "print(rate)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "runs": "150"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs holds 150.",
+     "new": [
+      "runs"
+     ],
+     "printed": []
+    },
+    {
+     "line": 2,
+     "vars": {
+      "runs": "150",
+      "played": "15"
+     },
+     "out": [],
+     "err": false,
+     "say": "played holds 15.",
+     "new": [
+      "played"
+     ],
+     "printed": []
+    },
+    {
+     "line": 3,
+     "vars": {
+      "runs": "150",
+      "played": "15",
+      "full": "20"
+     },
+     "out": [],
+     "err": false,
+     "say": "full holds 20.",
+     "new": [
+      "full"
+     ],
+     "printed": []
+    },
+    {
+     "line": 4,
+     "vars": {
+      "runs": "150",
+      "played": "15",
+      "full": "20",
+      "rate": "7.5"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs / full is 7.5.",
+     "new": [
+      "rate"
+     ],
+     "printed": []
+    },
+    {
+     "line": 5,
+     "vars": {
+      "runs": "150",
+      "played": "15",
+      "full": "20",
+      "rate": "7.5"
+     },
+     "out": [
+      "7.5"
+     ],
+     "err": false,
+     "say": "print shows 7.5.",
+     "new": [],
+     "printed": [
+      "7.5"
+     ]
+    }
+   ],
+   "stdout": "7.5\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "end": 5
+   }
+  },
+  "rate-b": {
+   "file": "rate.py",
+   "lines": [
+    "runs = 120",
+    "played = 20",
+    "full = 20",
+    "rate = runs / full",
+    "print(rate)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "runs": "120"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs holds 120.",
+     "new": [
+      "runs"
+     ],
+     "printed": []
+    },
+    {
+     "line": 2,
+     "vars": {
+      "runs": "120",
+      "played": "20"
+     },
+     "out": [],
+     "err": false,
+     "say": "played holds 20.",
+     "new": [
+      "played"
+     ],
+     "printed": []
+    },
+    {
+     "line": 3,
+     "vars": {
+      "runs": "120",
+      "played": "20",
+      "full": "20"
+     },
+     "out": [],
+     "err": false,
+     "say": "full holds 20.",
+     "new": [
+      "full"
+     ],
+     "printed": []
+    },
+    {
+     "line": 4,
+     "vars": {
+      "runs": "120",
+      "played": "20",
+      "full": "20",
+      "rate": "6.0"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs / full is 6.0.",
+     "new": [
+      "rate"
+     ],
+     "printed": []
+    },
+    {
+     "line": 5,
+     "vars": {
+      "runs": "120",
+      "played": "20",
+      "full": "20",
+      "rate": "6.0"
+     },
+     "out": [
+      "6.0"
+     ],
+     "err": false,
+     "say": "print shows 6.0.",
+     "new": [],
+     "printed": [
+      "6.0"
+     ]
+    }
+   ],
+   "stdout": "6.0\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "end": 5
+   }
+  },
+  "rate-c": {
+   "file": "rate.py",
+   "lines": [
+    "runs = 0",
+    "played = 10",
+    "full = 20",
+    "rate = runs / full",
+    "print(rate)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "runs": "0"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs holds 0.",
+     "new": [
+      "runs"
+     ],
+     "printed": []
+    },
+    {
+     "line": 2,
+     "vars": {
+      "runs": "0",
+      "played": "10"
+     },
+     "out": [],
+     "err": false,
+     "say": "played holds 10.",
+     "new": [
+      "played"
+     ],
+     "printed": []
+    },
+    {
+     "line": 3,
+     "vars": {
+      "runs": "0",
+      "played": "10",
+      "full": "20"
+     },
+     "out": [],
+     "err": false,
+     "say": "full holds 20.",
+     "new": [
+      "full"
+     ],
+     "printed": []
+    },
+    {
+     "line": 4,
+     "vars": {
+      "runs": "0",
+      "played": "10",
+      "full": "20",
+      "rate": "0.0"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs / full is 0.0.",
+     "new": [
+      "rate"
+     ],
+     "printed": []
+    },
+    {
+     "line": 5,
+     "vars": {
+      "runs": "0",
+      "played": "10",
+      "full": "20",
+      "rate": "0.0"
+     },
+     "out": [
+      "0.0"
+     ],
+     "err": false,
+     "say": "print shows 0.0.",
+     "new": [],
+     "printed": [
+      "0.0"
+     ]
+    }
+   ],
+   "stdout": "0.0\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "end": 5
+   }
+  },
+  "rate-d": {
+   "file": "rate.py",
+   "lines": [
+    "runs = 200",
+    "played = 20",
+    "full = 20",
+    "rate = runs / full",
+    "print(rate)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "runs": "200"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs holds 200.",
+     "new": [
+      "runs"
+     ],
+     "printed": []
+    },
+    {
+     "line": 2,
+     "vars": {
+      "runs": "200",
+      "played": "20"
+     },
+     "out": [],
+     "err": false,
+     "say": "played holds 20.",
+     "new": [
+      "played"
+     ],
+     "printed": []
+    },
+    {
+     "line": 3,
+     "vars": {
+      "runs": "200",
+      "played": "20",
+      "full": "20"
+     },
+     "out": [],
+     "err": false,
+     "say": "full holds 20.",
+     "new": [
+      "full"
+     ],
+     "printed": []
+    },
+    {
+     "line": 4,
+     "vars": {
+      "runs": "200",
+      "played": "20",
+      "full": "20",
+      "rate": "10.0"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs / full is 10.0.",
+     "new": [
+      "rate"
+     ],
+     "printed": []
+    },
+    {
+     "line": 5,
+     "vars": {
+      "runs": "200",
+      "played": "20",
+      "full": "20",
+      "rate": "10.0"
+     },
+     "out": [
+      "10.0"
+     ],
+     "err": false,
+     "say": "print shows 10.0.",
+     "new": [],
+     "printed": [
+      "10.0"
+     ]
+    }
+   ],
+   "stdout": "10.0\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "end": 5
+   }
+  },
+  "rate-fixed": {
+   "file": "rate.py",
+   "lines": [
+    "runs = 150",
+    "played = 15",
+    "full = 20",
+    "rate = runs / played",
+    "print(rate)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "runs": "150"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs holds 150.",
+     "new": [
+      "runs"
+     ],
+     "printed": []
+    },
+    {
+     "line": 2,
+     "vars": {
+      "runs": "150",
+      "played": "15"
+     },
+     "out": [],
+     "err": false,
+     "say": "played holds 15.",
+     "new": [
+      "played"
+     ],
+     "printed": []
+    },
+    {
+     "line": 3,
+     "vars": {
+      "runs": "150",
+      "played": "15",
+      "full": "20"
+     },
+     "out": [],
+     "err": false,
+     "say": "full holds 20.",
+     "new": [
+      "full"
+     ],
+     "printed": []
+    },
+    {
+     "line": 4,
+     "vars": {
+      "runs": "150",
+      "played": "15",
+      "full": "20",
+      "rate": "10.0"
+     },
+     "out": [],
+     "err": false,
+     "say": "runs / played is 10.0.",
+     "new": [
+      "rate"
+     ],
+     "printed": []
+    },
+    {
+     "line": 5,
+     "vars": {
+      "runs": "150",
+      "played": "15",
+      "full": "20",
+      "rate": "10.0"
+     },
+     "out": [
+      "10.0"
+     ],
+     "err": false,
+     "say": "print shows 10.0.",
+     "new": [],
+     "printed": [
+      "10.0"
+     ]
+    }
+   ],
+   "stdout": "10.0\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "end": 5
+   }
+  },
+  "top-high": {
+   "file": "top.py",
+   "lines": [
+    "marks = [78, 91, 66]",
+    "top = 100",
+    "for m in marks:",
+    "    if m > top:",
+    "        top = m",
+    "print(top)"
+   ],
+   "start": "Nothing has run yet.",
+   "steps": [
+    {
+     "line": 1,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ]
+     },
+     "out": [],
+     "err": false,
+     "say": "A list of three marks goes in a box named marks.",
+     "new": [
+      "marks"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 2,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "100"
+     },
+     "out": [],
+     "err": false,
+     "say": "A box named top starts at 100.",
+     "new": [
+      "top"
+     ],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "100",
+      "m": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 78.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "100",
+      "m": "78"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 78 more than 100? No, so the next line is skipped.",
+     "new": [],
+     "printed": [],
+     "cell": {
+      "marks": 0
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "100",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 91.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "100",
+      "m": "91"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 91 more than 100? No, so the next line is skipped.",
+     "new": [],
+     "printed": [],
+     "cell": {
+      "marks": 1
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "100",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "Take the next mark. m is now 66.",
+     "new": [
+      "m"
+     ],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 4,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "100",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "Is 66 more than 100? No, so the next line is skipped.",
+     "new": [],
+     "printed": [],
+     "cell": {
+      "marks": 2
+     }
+    },
+    {
+     "line": 3,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "100",
+      "m": "66"
+     },
+     "out": [],
+     "err": false,
+     "say": "No marks are left, so the loop ends.",
+     "new": [],
+     "printed": [],
+     "cell": {}
+    },
+    {
+     "line": 6,
+     "vars": {
+      "marks": [
+       "78",
+       "91",
+       "66"
+      ],
+      "top": "100",
+      "m": "66"
+     },
+     "out": [
+      "100"
+     ],
+     "err": false,
+     "say": "The loop is over, so this line runs once.",
+     "new": [],
+     "printed": [
+      "100"
+     ],
+     "cell": {}
+    }
+   ],
+   "stdout": "100\n",
+   "traceback": "",
+   "error": "",
+   "asks": {},
+   "stops": {
+    "end": 10
+   }
+  }
+ }
+}

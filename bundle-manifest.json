@@ -1,0 +1,32 @@
+{
+  "bundleManifestId": "meaning-map",
+  "title": {
+    "en": "The Meaning Map"
+  },
+  "description": {
+    "en": "How AI tools read words and make text and pictures, step by step, for students aged 12 to 16. Try each idea in a small model you can play with. Works offline."
+  },
+  "blurb": {
+    "en": "How AI tools read words and make text and pictures, step by step."
+  },
+  "highlights": [
+    {
+      "en": "Split text into tokens and give words numbers"
+    },
+    {
+      "en": "See how a model guesses the next token, one at a time"
+    },
+    {
+      "en": "Watch a picture come out of noise, step by step"
+    },
+    {
+      "en": "Works offline once a lesson is opened"
+    }
+  ],
+  "cover": "meaning-map/showcase/cover.jpg",
+  "sources": [
+    {
+      "manifestUrl": "meaning-map/manifest.json"
+    }
+  ]
+}

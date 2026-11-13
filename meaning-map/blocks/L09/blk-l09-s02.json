@@ -1,0 +1,26 @@
+{
+  "id": "blk-l09-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L09/blk-l09-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "Only the book and the person"
+    },
+    {
+      "id": "b",
+      "text": "All except the bridge answer"
+    },
+    {
+      "id": "c",
+      "text": "All four of the answers"
+    }
+  ],
+  "correctOptionId": "c",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

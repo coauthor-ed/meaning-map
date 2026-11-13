@@ -1,0 +1,49 @@
+{
+  "id": "part-2-writing",
+  "moduleId": "part-2-writing",
+  "type": "module",
+  "title": {
+    "en": "How AI Writes"
+  },
+  "curriculumAlignment": "core",
+  "pedagogicalProfile": {
+    "themeTags": [
+      "attention",
+      "training-data",
+      "autoregressive-generation",
+      "hallucination",
+      "ai-tools"
+    ]
+  },
+  "lessons": [
+    {
+      "lessonRef": "lessons/les-06.json",
+      "title": {
+        "en": "How Words Read Each Other"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-07.json",
+      "title": {
+        "en": "Where Did It Learn That?"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-08.json",
+      "title": {
+        "en": "One Token at a Time"
+      }
+    },
+    {
+      "lessonRef": "lessons/les-09.json",
+      "title": {
+        "en": "Confidently Wrong, and the Tools Around It"
+      }
+    }
+  ],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

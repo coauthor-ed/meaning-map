@@ -1,0 +1,94 @@
+{
+  "id": "q-l10-s06",
+  "type": "match-categorize@1",
+  "difficulty": "medium",
+  "bloomLevel": "apply",
+  "stem": {
+    "en": "Each event changes one thing. Sort the events by what they change."
+  },
+  "categories": [
+    {
+      "id": "settings",
+      "label": {
+        "en": "The model's settings"
+      }
+    },
+    {
+      "id": "text",
+      "label": {
+        "en": "The text it can read now"
+      }
+    },
+    {
+      "id": "chance",
+      "label": {
+        "en": "The chances of being picked"
+      }
+    }
+  ],
+  "chips": [
+    {
+      "id": "c1",
+      "text": {
+        "en": "A new training run on a corrected pile"
+      },
+      "correctCategoryId": "settings"
+    },
+    {
+      "id": "c2",
+      "text": {
+        "en": "One nudge during practice"
+      },
+      "correctCategoryId": "settings"
+    },
+    {
+      "id": "c3",
+      "text": {
+        "en": "You tell the chatbot that a date was wrong"
+      },
+      "correctCategoryId": "text"
+    },
+    {
+      "id": "c4",
+      "text": {
+        "en": "An app pastes in a page from a search"
+      },
+      "correctCategoryId": "text"
+    },
+    {
+      "id": "c5",
+      "text": {
+        "en": "A long chat pushes old lines past the edge"
+      },
+      "correctCategoryId": "text"
+    },
+    {
+      "id": "c6",
+      "text": {
+        "en": "The app turns temperature down to 0.2"
+      },
+      "correctCategoryId": "chance"
+    },
+    {
+      "id": "c7",
+      "text": {
+        "en": "A user moves temperature up to 1.6"
+      },
+      "correctCategoryId": "chance"
+    }
+  ],
+  "explanation": {
+    "en": "Only training changes settings. Whatever you type, and whatever an app pastes in, is more text in the context window, and a long chat can push old text out of it. Temperature changes the chances of being picked and leaves the scores as they are."
+  },
+  "hints": [
+    {
+      "en": "Ask whether training is happening at all."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "blk-l07-s03",
+  "type": "content-block@1",
+  "poeRole": "observe",
+  "poeRecapStep": 2,
+  "markdownRef": "blocks/L07/blk-l07-s03.md",
+  "simulation": {
+    "src": "simulations/L07/TheGymScene-france.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

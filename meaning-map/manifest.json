@@ -1,0 +1,245 @@
+{
+  "bundleId": "meaning-map",
+  "title": {
+    "en": "The Meaning Map: How AI Understands and Creates"
+  },
+  "subject": "general",
+  "grade": null,
+  "modules": [
+    "modules/part-1-words.json",
+    "modules/part-2-writing.json",
+    "modules/reasoning-and-code.json",
+    "modules/part-3-drawing.json"
+  ],
+  "lessons": [
+    "lessons/les-01.json",
+    "lessons/les-02.json",
+    "lessons/les-03.json",
+    "lessons/les-04.json",
+    "lessons/les-05.json",
+    "lessons/les-06.json",
+    "lessons/les-07.json",
+    "lessons/les-08.json",
+    "lessons/les-09.json",
+    "lessons/les-09b.json",
+    "lessons/les-c00.json",
+    "lessons/les-c01.json",
+    "lessons/les-c02.json",
+    "lessons/les-c03.json",
+    "lessons/les-10.json",
+    "lessons/les-11.json",
+    "lessons/les-12.json",
+    "lessons/les-13.json",
+    "lessons/les-14.json",
+    "lessons/les-15.json",
+    "lessons/les-16.json",
+    "lessons/les-17.json",
+    "lessons/les-18.json"
+  ],
+  "tests": [],
+  "banks": [],
+  "generatedAt": "2026-10-31T00:00:00.000Z",
+  "blurb": {
+    "en": "How AI tools read words and make text and pictures, step by step."
+  },
+  "highlights": [
+    {
+      "en": "Split text into tokens and give words numbers"
+    },
+    {
+      "en": "See how a model guesses the next token, one at a time"
+    },
+    {
+      "en": "Find out why a confident answer can still be wrong"
+    },
+    {
+      "en": "Watch a picture come out of noise, step by step"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "showcase/shot-1.jpg",
+      "caption": {
+        "en": "Tokens become numbers"
+      }
+    },
+    {
+      "src": "showcase/shot-2.jpg",
+      "caption": {
+        "en": "Memorised lines and patterns share one set of settings"
+      }
+    },
+    {
+      "src": "showcase/shot-3.jpg",
+      "caption": {
+        "en": "Tap the prompt and see what comes next"
+      }
+    },
+    {
+      "src": "showcase/shot-4.jpg",
+      "caption": {
+        "en": "Halfway between two pictures"
+      }
+    },
+    {
+      "src": "showcase/shot-5.jpg",
+      "caption": {
+        "en": "A picture starts from pure noise"
+      }
+    }
+  ],
+  "screencast": {
+    "src": "showcase/clip.webm",
+    "poster": "showcase/clip-poster.jpg"
+  },
+  "cover": "showcase/cover.jpg",
+  "estHours": 4.5,
+  "sizeMB": 15,
+  "glossary": "glossary.json",
+  "schemaVersion": 1,
+  "audience": "school",
+  "subjects": [
+    "computing"
+  ],
+  "languages": [
+    "en"
+  ],
+  "repository": {
+    "url": "https://github.com/coauthor-ed/meaning-map",
+    "issues": "https://github.com/coauthor-ed/meaning-map/issues"
+  },
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-13",
+  "features": {
+    "story": false,
+    "games": false,
+    "practice": true
+  },
+  "digest": {
+    "v": 1,
+    "modules": [
+      {
+        "id": "part-1-words",
+        "title": "Words Become Numbers",
+        "lessons": [
+          {
+            "ref": "lessons/les-01.json",
+            "title": "What Just Happened?"
+          },
+          {
+            "ref": "lessons/les-02.json",
+            "title": "How Text Becomes Tokens"
+          },
+          {
+            "ref": "lessons/les-03.json",
+            "title": "Guess, Check, Nudge"
+          },
+          {
+            "ref": "lessons/les-04.json",
+            "title": "Embeddings: Giving Words Numbers"
+          },
+          {
+            "ref": "lessons/les-05.json",
+            "title": "Directions Between Words"
+          }
+        ]
+      },
+      {
+        "id": "part-2-writing",
+        "title": "How AI Writes",
+        "lessons": [
+          {
+            "ref": "lessons/les-06.json",
+            "title": "How Words Read Each Other"
+          },
+          {
+            "ref": "lessons/les-07.json",
+            "title": "Where Did It Learn That?"
+          },
+          {
+            "ref": "lessons/les-08.json",
+            "title": "One Token at a Time"
+          },
+          {
+            "ref": "lessons/les-09.json",
+            "title": "Confidently Wrong, and the Tools Around It"
+          }
+        ]
+      },
+      {
+        "id": "reasoning-and-code",
+        "title": "Reasoning and Code",
+        "lessons": [
+          {
+            "ref": "lessons/les-09b.json",
+            "title": "Is the Next Token Enough?"
+          },
+          {
+            "ref": "lessons/les-c00.json",
+            "title": "What Is a Program?"
+          },
+          {
+            "ref": "lessons/les-c01.json",
+            "title": "Why Code Is Easy to Predict"
+          },
+          {
+            "ref": "lessons/les-c02.json",
+            "title": "Write, Run, Read, Rewrite"
+          },
+          {
+            "ref": "lessons/les-c03.json",
+            "title": "Runs Is Not the Same as Right"
+          },
+          {
+            "ref": "lessons/les-10.json",
+            "title": "What We Know About Words"
+          }
+        ]
+      },
+      {
+        "id": "part-3-drawing",
+        "title": "How AI Draws, and What You Think",
+        "lessons": [
+          {
+            "ref": "lessons/les-11.json",
+            "title": "Hidden Numbers"
+          },
+          {
+            "ref": "lessons/les-12.json",
+            "title": "Squeezing Real Pictures"
+          },
+          {
+            "ref": "lessons/les-13.json",
+            "title": "Noise and the Guess"
+          },
+          {
+            "ref": "lessons/les-14.json",
+            "title": "Walking Back from Noise"
+          },
+          {
+            "ref": "lessons/les-15.json",
+            "title": "How Words Steer"
+          },
+          {
+            "ref": "lessons/les-16.json",
+            "title": "The Whole Machine"
+          },
+          {
+            "ref": "lessons/les-17.json",
+            "title": "Whose Pictures?"
+          },
+          {
+            "ref": "lessons/les-18.json",
+            "title": "What You Think Now"
+          }
+        ]
+      }
+    ],
+    "lessonCount": 23,
+    "narrated": false,
+    "chapterIds": [
+      null
+    ]
+  }
+}

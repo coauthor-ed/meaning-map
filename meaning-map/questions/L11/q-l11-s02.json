@@ -1,0 +1,54 @@
+{
+  "id": "q-l11-s02",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "A program looks at a picture of a ball and writes down 3 numbers: 24, 40 and 11. What is this program doing?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Decoding, because it reads the picture carefully."
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Encoding, because it squeezes pixels into latent numbers."
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Decoding, because latent numbers come out at the end."
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Encoding, because it draws the ball from its numbers."
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "A picture going in and a few numbers coming out is an encoder. A decoder runs the other way, from latent numbers out to pixels, so drawing from numbers is decoding, not encoding. Reading carefully does not make it decoding: what matters is the direction."
+  },
+  "hints": [
+    {
+      "en": "Ask what goes in and what comes out."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "q-l07-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "A model keeps saying \"Calcutta is in France\", and its builders want to fix this. Which repair could really work?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Tell it in a chat, so that it remembers the fact"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Find the fact file inside it and edit that line"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Add a rule that the model must always be correct"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Correct the pile, then train the model again"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "What a model says comes from settings shaped by its pile, so a better pile and more training can change it. A chat changes no setting, there is no line inside the numbers to edit, and a model cannot follow a rule to be correct, because training only compares its guess with the pile."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "blk-l04-s03",
+  "type": "content-block@1",
+  "poeRole": "observe",
+  "markdownRef": "blocks/L04/blk-l04-s03.md",
+  "simulation": {
+    "src": "simulations/L04/TheWordMapScene-neighbours.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-02T18:27:05.015Z"
+  }
+}

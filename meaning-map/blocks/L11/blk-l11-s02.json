@@ -1,0 +1,26 @@
+{
+  "id": "blk-l11-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L11/blk-l11-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "About 12,000, because every pixel counts"
+    },
+    {
+      "id": "b",
+      "text": "About 100, enough to trace the ball's edge"
+    },
+    {
+      "id": "c",
+      "text": "About 3, enough to place and size it"
+    }
+  ],
+  "correctOptionId": "c",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

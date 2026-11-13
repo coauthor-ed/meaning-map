@@ -1,0 +1,46 @@
+{
+  "id": "q-l02-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "A tool splits \"unbelievable\" into un + believ + able. Which conclusion is fair?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "This is the only correct way to split the word"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Those pieces were common in the text it counted"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The tool knows that the piece un means not"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Long words always split into exactly three tokens"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "The list comes from counting pieces in text, so the split shows what was common there. A list counted from other text can split the same word differently, and no meaning was involved."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

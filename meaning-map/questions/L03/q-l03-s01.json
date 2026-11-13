@@ -1,0 +1,46 @@
+{
+  "id": "q-l03-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Which change would most likely make a model worse at sentences that are not in its pile?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Cutting the pile to a few sentences"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Running each step more slowly"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Giving it many more practice sentences"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Giving it more settings and more lines"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "With only a few sentences, the settings tend to fit those exact lines, which is memorising. They do not pick up patterns that also work on new sentences. More lines give more patterns, and speed changes nothing about what is learned."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

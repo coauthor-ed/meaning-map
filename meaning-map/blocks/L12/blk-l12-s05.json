@@ -1,0 +1,14 @@
+{
+  "id": "blk-l12-s05",
+  "type": "content-block@1",
+  "markdownRef": "blocks/L12/blk-l12-s05.md",
+  "simulation": {
+    "src": "simulations/L12/ThePictureMapScene-static.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

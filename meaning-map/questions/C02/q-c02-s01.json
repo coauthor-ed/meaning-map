@@ -1,0 +1,46 @@
+{
+  "id": "q-c02-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "A model fixes a bug after reading an error message. Then you open a new chat and ask for the same program. What is true?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The fix is stored in its settings now"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "It keeps the old chat in its context window"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "It can make the same mistake again"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "It must make the same mistake again"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "The fix came from text in the old context window, and a new chat starts without it. No setting changed, so the mistake can return. It does not have to, because picking has some randomness. An app that saves notes would add text, but it would still not change a setting."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "les-17",
+  "lessonId": "les-17",
+  "type": "lesson",
+  "title": {
+    "en": "Whose Pictures?"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/L17/blk-l17-s01.json"
+    },
+    {
+      "blockRef": "blocks/L17/blk-l17-s02.json"
+    },
+    {
+      "blockRef": "blocks/L17/blk-l17-s03.json"
+    },
+    {
+      "blockRef": "questions/L17/q-l17-s01.json"
+    },
+    {
+      "blockRef": "blocks/L17/blk-l17-s04.json"
+    },
+    {
+      "blockRef": "questions/L17/q-l17-s02.json"
+    },
+    {
+      "blockRef": "blocks/L17/blk-l17-s05.json"
+    },
+    {
+      "blockRef": "questions/L17/q-l17-s03.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

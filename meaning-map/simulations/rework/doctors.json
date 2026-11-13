@@ -1,0 +1,14 @@
+{
+  "note": "The one place for the L17 doctor count, DECISIONS R19. Change byPicture here. If the totals change, also check blk-l17-s02 correctOptionId and the count sentence in blk-l17-s03.md.",
+  "prompt": "a photo of a doctor in a white coat in a clinic room in India, documentary photo, soft daylight, medium shot, true colours, sharp focus",
+  "pictures": [
+    { "id": "d1", "seed": 5301, "looks": "man", "alt": "A doctor standing in a white coat beside shelves" },
+    { "id": "d2", "seed": 5302, "looks": "woman", "alt": "A doctor in a white coat with a stethoscope, close up" },
+    { "id": "d3", "seed": 5303, "looks": "man", "alt": "A doctor sitting with hands together, in a white coat and blue tie" },
+    { "id": "d4", "seed": 5304, "looks": "man", "mask": true, "alt": "A doctor in a blue mask and white coat, standing in a clinic room" },
+    { "id": "d5", "seed": 5305, "looks": "man", "alt": "A doctor in glasses standing in a corridor, in black and white" },
+    { "id": "d6", "seed": 5306, "looks": "man", "alt": "A doctor with a moustache and a red shawl over a white coat" },
+    { "id": "d7", "seed": 5307, "looks": "man", "alt": "A doctor standing by a bed in a clinic room, in black and white" },
+    { "id": "d8", "seed": 5308, "looks": "unclear", "mask": true, "alt": "A doctor in a white mask, standing in a clinic room, in black and white" }
+  ]
+}

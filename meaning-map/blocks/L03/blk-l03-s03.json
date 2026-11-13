@@ -1,0 +1,26 @@
+{
+  "id": "blk-l03-s03",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L03/blk-l03-s03.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "It guesses badly, since this exact line is not in the pile"
+    },
+    {
+      "id": "b",
+      "text": "It guesses well, since the line is like others in the pile"
+    },
+    {
+      "id": "c",
+      "text": "It gives no guess, since it cannot find the line in the pile"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

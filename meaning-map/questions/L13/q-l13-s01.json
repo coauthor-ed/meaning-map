@@ -1,0 +1,50 @@
+{
+  "id": "q-l13-s01",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "During training, the model gets a noisy picture of a horse. What is it asked to guess, so that taking the guess away leaves something closer to the horse?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The noise that was added"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "How noisy the picture looks, as one score"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The clean picture, pixel by pixel"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Which saved photo the picture came from"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "a",
+  "explanation": {
+    "en": "The model estimates the added random numbers. Taking that noise guess away from the noisy numbers leaves something closer to the picture."
+  },
+  "hints": [],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

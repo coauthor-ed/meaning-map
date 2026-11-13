@@ -1,0 +1,26 @@
+{
+  "id": "blk-l17-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L17/blk-l17-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "Most of them (five or more)"
+    },
+    {
+      "id": "b",
+      "text": "About half (three or four)"
+    },
+    {
+      "id": "c",
+      "text": "Only a few (two or fewer)"
+    }
+  ],
+  "correctOptionId": "c",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "q-c03-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "A run-rate program was tried three times. Which run shows a bug?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "60 runs in 20 overs, printed 3.0"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "40 runs in 5 overs, printed 8.0"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "90 runs in 10 overs, printed 4.5"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "90 divided by 10 is 9, so the expected answer is 9.0. The program printed half of that, with no error. The other two match when you work them out by hand."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

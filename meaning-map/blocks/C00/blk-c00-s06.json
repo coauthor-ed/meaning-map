@@ -1,0 +1,14 @@
+{
+  "id": "blk-c00-s06",
+  "type": "content-block@1",
+  "markdownRef": "blocks/C00/blk-c00-s06.md",
+  "simulation": {
+    "src": "simulations/rework/TracePlayerScene-low.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "q-l14-s01",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Why does one giant step from pure noise give a blur?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The computer runs out of time"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Many pictures fit, so the safest guess is their average"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The model only ever saves blurred pictures"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Noise always makes every picture darker"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "b",
+  "explanation": {
+    "en": "At heavy noise many pictures fit. A single guess that is least wrong across all of them is their average, and an average of different pictures is soft."
+  },
+  "hints": [],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

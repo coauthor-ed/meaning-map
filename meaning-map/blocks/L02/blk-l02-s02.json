@@ -1,0 +1,26 @@
+{
+  "id": "blk-l02-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L02/blk-l02-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "When the word is long and has a lot of letters in it"
+    },
+    {
+      "id": "b",
+      "text": "When the word is rare in the text it learned from"
+    },
+    {
+      "id": "c",
+      "text": "When the word is built from two smaller words"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

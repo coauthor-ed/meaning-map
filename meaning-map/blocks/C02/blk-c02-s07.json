@@ -1,0 +1,15 @@
+{
+  "id": "blk-c02-s07",
+  "type": "content-block@1",
+  "_comment": "Steps 3-5: the runner fails on a slip in part 2, the error goes into the window, part 2 alone is rewritten, the run prints 76.0.",
+  "markdownRef": "blocks/C02/blk-c02-s07.md",
+  "simulation": {
+    "src": "simulations/rework/AppInPartsScene-run.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

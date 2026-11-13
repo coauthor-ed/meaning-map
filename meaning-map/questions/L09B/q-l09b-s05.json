@@ -1,0 +1,53 @@
+{
+  "id": "q-l09b-s05",
+  "type": "statement-judgment@1",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Is each statement about testing and checking a model true or false?"
+  },
+  "statements": [
+    {
+      "id": "a",
+      "text": {
+        "en": "A picture of strong attention proves which words caused the answer."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Switching off a part and watching the answer is stronger evidence."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Working that looks neat and careful always ends in the right answer."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Putting the answer back into the story is one way to check it."
+      },
+      "isTrue": true
+    }
+  ],
+  "explanation": {
+    "en": "A picture shows where attention went, not what caused the answer. Changing a part and watching the answer is a real test. Neat working can still be wrong, like 30 + 8 = 38 in the sticker story. Putting 38 back into the story showed it did not fit."
+  },
+  "hints": [
+    {
+      "en": "Think about the switch on the toy, and about the sticker story."
+    }
+  ],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

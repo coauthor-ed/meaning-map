@@ -1,0 +1,50 @@
+{
+  "id": "q-l14-s02",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Two runs use the same prompt and the same number of steps, but different seeds. What changes?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The size of the picture"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "How many steps the run can take"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The starting noise, so usually the picture"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "The settings the model learned"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "A seed fixes the starting noise. The learned settings stay the same, but different starting noise usually leads the steps to a different picture."
+  },
+  "hints": [],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

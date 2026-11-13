@@ -1,0 +1,34 @@
+{
+  "id": "les-16",
+  "lessonId": "les-16",
+  "type": "lesson",
+  "title": {
+    "en": "The Whole Machine"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/L16/blk-l16-s01.json"
+    },
+    {
+      "blockRef": "questions/L16/q-l16-s01.json"
+    },
+    {
+      "blockRef": "blocks/L16/blk-l16-s02.json"
+    },
+    {
+      "blockRef": "blocks/L16/blk-l16-s03.json"
+    },
+    {
+      "blockRef": "blocks/L16/blk-l16-s04.json"
+    },
+    {
+      "blockRef": "questions/L16/q-l16-s02.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

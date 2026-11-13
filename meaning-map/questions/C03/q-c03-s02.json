@@ -1,0 +1,66 @@
+{
+  "id": "q-c03-s02",
+  "type": "match-categorize@1",
+  "stem": {
+    "en": "Who can tell you this?"
+  },
+  "categories": [
+    {
+      "id": "run",
+      "label": {
+        "en": "The runner"
+      }
+    },
+    {
+      "id": "you",
+      "label": {
+        "en": "Only you"
+      }
+    }
+  ],
+  "chips": [
+    {
+      "id": "c1",
+      "text": {
+        "en": "Python stopped on line 6"
+      },
+      "correctCategoryId": "run"
+    },
+    {
+      "id": "c2",
+      "text": {
+        "en": "The program finished with no error"
+      },
+      "correctCategoryId": "run"
+    },
+    {
+      "id": "c3",
+      "text": {
+        "en": "The program printed 7.5"
+      },
+      "correctCategoryId": "run"
+    },
+    {
+      "id": "c4",
+      "text": {
+        "en": "7.5 is the wrong run rate"
+      },
+      "correctCategoryId": "you"
+    },
+    {
+      "id": "c5",
+      "text": {
+        "en": "The program does what you wanted"
+      },
+      "correctCategoryId": "you"
+    }
+  ],
+  "explanation": {
+    "en": "The runner reports what happened: where it stopped, and what it printed. It has no idea what you wanted, so deciding whether a result is right is your job."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

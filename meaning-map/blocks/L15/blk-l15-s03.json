@@ -1,0 +1,26 @@
+{
+  "id": "blk-l15-s03",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L15/blk-l15-s03.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "The same dragon stays, and only its colour changes"
+    },
+    {
+      "id": "b",
+      "text": "The colour changes, and the pose can change too"
+    },
+    {
+      "id": "c",
+      "text": "Nothing stays, and it may not even be a dragon"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

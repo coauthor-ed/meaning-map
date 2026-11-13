@@ -1,0 +1,37 @@
+{
+  "id": "les-15",
+  "lessonId": "les-15",
+  "type": "lesson",
+  "title": {
+    "en": "How Words Steer"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/L15/blk-l15-s01.json"
+    },
+    {
+      "blockRef": "blocks/L15/blk-l15-s02.json"
+    },
+    {
+      "blockRef": "questions/L15/q-l15-s01.json"
+    },
+    {
+      "blockRef": "blocks/L15/blk-l15-s03.json"
+    },
+    {
+      "blockRef": "blocks/L15/blk-l15-s04.json"
+    },
+    {
+      "blockRef": "questions/L15/q-l15-s02.json"
+    },
+    {
+      "blockRef": "blocks/L15/blk-l15-s05.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

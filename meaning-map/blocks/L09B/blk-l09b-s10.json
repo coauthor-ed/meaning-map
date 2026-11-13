@@ -1,0 +1,14 @@
+{
+  "id": "blk-l09b-s10",
+  "type": "content-block@1",
+  "markdownRef": "blocks/L09B/blk-l09b-s10.md",
+  "simulation": {
+    "src": "simulations/rework/ConstraintScene.js",
+    "position": "right"
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

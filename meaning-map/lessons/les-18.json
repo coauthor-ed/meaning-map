@@ -1,0 +1,31 @@
+{
+  "id": "les-18",
+  "lessonId": "les-18",
+  "type": "lesson",
+  "title": {
+    "en": "What You Think Now"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/L18/blk-l18-s01.json"
+    },
+    {
+      "blockRef": "blocks/L18/blk-l18-s02.json"
+    },
+    {
+      "blockRef": "questions/L18/q-l18-s01.json"
+    },
+    {
+      "blockRef": "blocks/L18/blk-l18-s03.json"
+    },
+    {
+      "blockRef": "blocks/L18/blk-l18-s04.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-11-06T08:57:08.155Z"
+  }
+}

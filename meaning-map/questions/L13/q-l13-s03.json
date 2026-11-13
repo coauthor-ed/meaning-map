@@ -1,0 +1,45 @@
+{
+  "id": "q-l13-s03",
+  "type": "statement-judgment@1",
+  "stem": {
+    "en": "Decide whether each statement is true or false."
+  },
+  "statements": [
+    {
+      "id": "a",
+      "text": {
+        "en": "At light noise, only one picture is likely to fit what you see."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "At heavy noise, many different pictures could be underneath."
+      },
+      "isTrue": true
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "A trained model can recover the exact picture from pure noise."
+      },
+      "isTrue": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "A picture stays hidden in the numbers at the top of the slider."
+      },
+      "isTrue": false
+    }
+  ],
+  "explanation": {
+    "en": "Light noise leaves the shapes in place. At the top of the slider no number depends on the picture any more, so nothing is hidden there to recover."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

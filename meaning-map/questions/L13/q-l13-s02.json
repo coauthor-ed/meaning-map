@@ -1,0 +1,50 @@
+{
+  "id": "q-l13-s02",
+  "type": "mcq-single@2",
+  "difficulty": "medium",
+  "bloomLevel": "understand",
+  "stem": {
+    "en": "Why does this kind of training have free answers?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "A person marks each guess by hand"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Every picture gets exactly the same noise"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The model remembers every noise it has seen"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "We added the noise, so we know it"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "We chose the random numbers ourselves, so the true noise is known for every practice picture with no human marking."
+  },
+  "hints": [],
+  "tags": [],
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

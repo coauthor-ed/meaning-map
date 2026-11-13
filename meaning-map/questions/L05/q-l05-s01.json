@@ -1,0 +1,46 @@
+{
+  "id": "q-l05-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Add the boy-to-man difference to princess. The top word is prince, not queen, and prince was already the nearest word to princess. What is the best conclusion?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "The embedding of princess must be broken"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "More training would make this sum always work"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Differences are no use, so no pattern exists"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Differences hold some patterns, and often fail"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "The capitals show a real pattern: the country's closeness rose for nine of the ten. Princess shows that a pattern is not a rule. Embeddings come from how words are used, so a sum works sometimes and misses at other times."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

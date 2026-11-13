@@ -1,0 +1,26 @@
+{
+  "id": "blk-l06-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L06/blk-l06-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "The and flew, which sit right beside bat"
+    },
+    {
+      "id": "b",
+      "text": "flew and cave, though cave comes last"
+    },
+    {
+      "id": "c",
+      "text": "All six other words, about equally"
+    }
+  ],
+  "correctOptionId": "b",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

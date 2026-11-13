@@ -1,0 +1,46 @@
+{
+  "id": "q-l04-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Cold is the nearest word to hot among our 238 words, although the two words mean opposite things. What is the best reason?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "A programmer placed opposite words side by side"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "One of the numbers in each embedding means temperature"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "The two words fit the same kinds of sentences"
+      },
+      "isCorrect": true
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Their token ids are close together in the token list"
+      },
+      "isCorrect": false
+    }
+  ],
+  "correctOptionId": "c",
+  "explanation": {
+    "en": "Training nudges numbers according to how words are used. \"Too hot\" and \"too cold\" appear in the same kinds of sentences, so their embeddings become similar. No person places a word, the numbers have no names, and token ids carry no meaning."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

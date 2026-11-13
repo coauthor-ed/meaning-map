@@ -1,0 +1,26 @@
+{
+  "id": "blk-l01-s02",
+  "type": "poe-predict@1",
+  "promptRef": "blocks/L01/blk-l01-s02.md",
+  "options": [
+    {
+      "id": "a",
+      "text": "By looking it up in a large store"
+    },
+    {
+      "id": "b",
+      "text": "By joining pieces of pictures it has seen"
+    },
+    {
+      "id": "c",
+      "text": "By something more than those two ideas"
+    }
+  ],
+  "correctOptionId": "c",
+  "deferVerdict": true,
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

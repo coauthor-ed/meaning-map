@@ -1,0 +1,46 @@
+{
+  "id": "q-l03-s02",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "You tell a chatbot it made a mistake, and it says sorry. What changed?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "Its settings, so it has now learned"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Nothing, because it ignored your message"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Your correction went to every other user"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "Only the text it is reading right now"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "Your message is now part of the text it reads in this chat, so its next reply can use it. Nudges happen only in training, so no setting moved, and the correction does not reach other users."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

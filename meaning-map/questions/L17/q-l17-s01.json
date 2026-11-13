@@ -1,0 +1,46 @@
+{
+  "id": "q-l17-s01",
+  "type": "mcq-single@2",
+  "stem": {
+    "en": "Asha runs \"a photo of a nurse\" with 8 seeds, and 7 of the pictures show women. What can she fairly say?"
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": {
+        "en": "This model is now proved to be biased about every job"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "b",
+      "text": {
+        "en": "Most of the nurses in the world must really be women"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "c",
+      "text": {
+        "en": "Nothing, because a model only makes random pictures"
+      },
+      "isCorrect": false
+    },
+    {
+      "id": "d",
+      "text": {
+        "en": "It is one small hint, and she needs a much larger test"
+      },
+      "isCorrect": true
+    }
+  ],
+  "correctOptionId": "d",
+  "explanation": {
+    "en": "Eight pictures from one prompt can only hint at a pattern. A real claim needs many more seeds, a fixed counting rule and a look at the pile. It also says nothing certain about real nurses, because the result reflects the pile."
+  },
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}

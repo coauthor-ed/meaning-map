@@ -1,0 +1,37 @@
+{
+  "id": "les-13",
+  "lessonId": "les-13",
+  "type": "lesson",
+  "title": {
+    "en": "Noise and the Guess"
+  },
+  "blocks": [
+    {
+      "blockRef": "blocks/L13/blk-l13-s01.json"
+    },
+    {
+      "blockRef": "blocks/L13/blk-l13-s02.json"
+    },
+    {
+      "blockRef": "blocks/L13/blk-l13-s03.json"
+    },
+    {
+      "blockRef": "blocks/L13/blk-l13-s04.json"
+    },
+    {
+      "blockRef": "questions/L13/q-l13-s01.json"
+    },
+    {
+      "blockRef": "questions/L13/q-l13-s02.json"
+    },
+    {
+      "blockRef": "questions/L13/q-l13-s03.json"
+    }
+  ],
+  "flow": {},
+  "authoring": {
+    "status": "human-approved",
+    "flags": [],
+    "reviewedAt": "2026-10-31T17:30:04.291Z"
+  }
+}
